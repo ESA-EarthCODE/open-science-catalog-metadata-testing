@@ -1,7 +1,8 @@
 {
   "license": "proprietary",
   "osc:themes": [
-    "Solid Earth"
+    "Solid Earth",
+    "Land"
   ],
   "osc:name": "3D-Earth",
   "extent": {
