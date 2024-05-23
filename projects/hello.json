@@ -1,0 +1,9 @@
+{
+  "id": "test",
+  "title": "Hello",
+  "description": "World",
+  "osc:status": "ongoing",
+  "osc:themes": [
+    "Land"
+  ]
+}
