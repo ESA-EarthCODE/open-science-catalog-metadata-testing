@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "aerosol-dust-od-livas",
   "stac_version": "1.0.0",
-  "description": "Aerosol (and dust aerosol) optical depth at 532 nm. The products are provided for all CALIPSO overpasses, using the CALIPSO L2 aerosol product horizontal resolution of 5km.",
+  "description": "Aerosol (and dust aerosol) optical depth at 532 nm. The products are provided for all CALIPSO overpasses, using the CALIPSO L2 aerosol product horizontal resolution of 5km. Test",
   "links": [
     {
       "rel": "root",
