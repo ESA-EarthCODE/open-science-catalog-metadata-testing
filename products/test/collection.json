@@ -1,4 +1,32 @@
 {
+  "stac_version": "1.0.0",
   "id": "test",
-  "title": "Test"
+  "type": "Collection",
+  "title": "Test",
+  "description": "hello",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "",
+          ""
+        ]
+      ]
+    }
+  },
+  "links": [],
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": "abc"
 }
