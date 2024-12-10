@@ -1,4 +1,32 @@
 {
+  "stac_version": "1.0.0",
   "id": "Testing-SM",
-  "title": "SM ist testing this feature"
+  "type": "Collection",
+  "title": "SM ist testing this feature",
+  "description": "",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "",
+          ""
+        ]
+      ]
+    }
+  },
+  "links": [],
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": "test"
 }
