@@ -1712,6 +1712,12 @@
       "href": "./Testing-SM/collection.json",
       "type": "application/json",
       "title": "SM ist testing this feature"
+    },
+    {
+      "rel": "child",
+      "href": "./SOSDemo/collection.json",
+      "type": "application/json",
+      "title": "SOS Demo"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
