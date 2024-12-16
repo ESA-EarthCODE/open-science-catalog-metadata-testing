@@ -3,59 +3,65 @@
   "id": "addit-earthquake-tsunami-tool-costo",
   "stac_version": "1.0.0",
   "description": "Detection and characterization of Traveling Ionospheric Disturbances (TIDs) from Global Navigation Satellite System (GNSS) measurements using the Atomic Decomposition Detector of Traveling Ionospheric Disturbances (ADDTID) algorithm",
-  "links": {
-    "0": {
+  "links": [
+    {
       "0": {
         "0": {
-          "rel": "root",
-          "href": "../../catalog.json",
-          "type": "application/json",
-          "title": "Open Science Catalog"
-        },
-        "1": {
-          "rel": "via",
-          "href": "https://www.mdpi.com/2072-4292/11/16/1894/htm#app1-remotesensing-11-01894",
-          "title": "Access"
-        },
-        "2": {
-          "rel": "cite-as",
-          "href": "https://doi.org/10.3390/rs11161894",
-          "title": "DOI"
-        },
-        "3": {
-          "rel": "parent",
-          "href": "../catalog.json",
-          "type": "application/json",
-          "title": "Products"
-        },
-        "4": {
-          "rel": "related",
-          "href": "../../projects/contribution-of-swarm-data-to-the-prompt-detection-of-tsunamis-and-other-natural-hazards-costo/collection.json",
-          "type": "application/json",
-          "title": "Project: COSTO"
-        },
-        "5": {
-          "rel": "related",
-          "href": "../../themes/magnetosphere-ionosphere/catalog.json",
-          "type": "application/json",
-          "title": "Theme: Magnetosphere_Ionosphere"
-        },
-        "6": {
-          "rel": "related",
-          "href": "../../variables/ionosphere-magnetosphere-dynamics/catalog.json",
-          "type": "application/json",
-          "title": "Variable: Ionosphere/Magnetosphere Dynamics"
-        },
-        "7": {
-          "rel": "related",
-          "href": "../../eo-missions/swarm/catalog.json",
-          "type": "application/json",
-          "title": "EO Mission: SWARM"
-        },
-        "8": {
-          "rel": "self",
-          "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/addit-earthquake-tsunami-tool-costo/collection.json",
-          "type": "application/json"
+          "0": {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json",
+            "title": "Open Science Catalog"
+          },
+          "1": {
+            "rel": "via",
+            "href": "https://www.mdpi.com/2072-4292/11/16/1894/htm#app1-remotesensing-11-01894",
+            "title": "Access"
+          },
+          "2": {
+            "rel": "cite-as",
+            "href": "https://doi.org/10.3390/rs11161894",
+            "title": "DOI"
+          },
+          "3": {
+            "rel": "parent",
+            "href": "../catalog.json",
+            "type": "application/json",
+            "title": "Products"
+          },
+          "4": {
+            "rel": "related",
+            "href": "../../projects/contribution-of-swarm-data-to-the-prompt-detection-of-tsunamis-and-other-natural-hazards-costo/collection.json",
+            "type": "application/json",
+            "title": "Project: COSTO"
+          },
+          "5": {
+            "rel": "related",
+            "href": "../../themes/magnetosphere-ionosphere/catalog.json",
+            "type": "application/json",
+            "title": "Theme: Magnetosphere_Ionosphere"
+          },
+          "6": {
+            "rel": "related",
+            "href": "../../variables/ionosphere-magnetosphere-dynamics/catalog.json",
+            "type": "application/json",
+            "title": "Variable: Ionosphere/Magnetosphere Dynamics"
+          },
+          "7": {
+            "rel": "related",
+            "href": "../../eo-missions/swarm/catalog.json",
+            "type": "application/json",
+            "title": "EO Mission: SWARM"
+          },
+          "8": {
+            "rel": "self",
+            "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/addit-earthquake-tsunami-tool-costo/collection.json",
+            "type": "application/json"
+          },
+          "rel": "",
+          "href": "",
+          "type": "",
+          "title": ""
         },
         "rel": "",
         "href": "",
@@ -67,10 +73,10 @@
       "type": "",
       "title": ""
     }
-  },
-  "stac_extensions": {
-    "0": "{\"0\":\"{\\\"0\\\":\\\"https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json\\\",\\\"1\\\":\\\"https://stac-extensions.github.io/scientific/v1.0.0/schema.json\\\",\\\"2\\\":\\\"https://stac-extensions.github.io/cf/v0.2.0/schema.json\\\"}\"}"
-  },
+  ],
+  "stac_extensions": [
+    "{\"0\":\"{\\\"0\\\":\\\"{\\\\\\\"0\\\\\\\":\\\\\\\"https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json\\\\\\\",\\\\\\\"1\\\\\\\":\\\\\\\"https://stac-extensions.github.io/scientific/v1.0.0/schema.json\\\\\\\",\\\\\\\"2\\\\\\\":\\\\\\\"https://stac-extensions.github.io/cf/v0.2.0/schema.json\\\\\\\"}\\\"}\"}"
+  ],
   "osc:project": "projects/4datlantic-ebus-primus",
   "osc:status": "ongoing",
   "osc:region": "Japan",
@@ -79,48 +85,59 @@
   "start_datetime": "2011-01-01T00:00:00Z",
   "end_datetime": "2011-12-31T23:59:59Z",
   "sci:doi": "10.3390/rs11161894",
-  "cf:parameter": {
-    "0": {
+  "cf:parameter": [
+    {
       "0": {
         "0": {
-          "name": "earthquake_tsunami_tool"
+          "0": {
+            "name": "earthquake_tsunami_tool"
+          },
+          "name": ""
         },
         "name": ""
       },
       "name": ""
     }
-  },
-  "osc:themes": {
-    "0": "themes/magnetosphere-ionosphere",
-    "1": "themes/oceans",
-    "2": "themes/solid-earth"
-  },
-  "osc:variables": {},
-  "osc:missions": {},
+  ],
+  "osc:themes": [
+    "themes/magnetosphere-ionosphere",
+    "themes/oceans",
+    "themes/solid-earth"
+  ],
+  "osc:variables": [
+    "variables/13-ch4-delta",
+    "variables/13-co-delta",
+    "variables/13-co2-delta",
+    "variables/14-ch4-delta",
+    "variables/14-co-number-concentration",
+    "variables/14-co2-delta",
+    "variables/ablation-zones-accumulation-zones"
+  ],
+  "osc:missions": [],
   "updated": "2024-09-12T20:32:06.209108Z",
   "title": "ADDTID: An Alternative Tool for Studying Earthquake/Tsunami Signatures in the Ionosphere_Japan_SWARM",
   "extent": {
     "spatial": {
-      "bbox": {
-        "0": {
-          "0": "{\"0\":{\"0\":\"{\\\"0\\\":{\\\"0\\\":122.71417537,\\\"1\\\":20.21458102,\\\"2\\\":154.20554098,\\\"3\\\":45.71120454}}\",\"1\":\"\",\"2\":\"\",\"3\":\"\"}}",
-          "1": "",
-          "2": "",
-          "3": ""
-        }
-      }
+      "bbox": [
+        [
+          "{\"0\":{\"0\":\"{\\\"0\\\":{\\\"0\\\":\\\"{\\\\\\\"0\\\\\\\":{\\\\\\\"0\\\\\\\":122.71417537,\\\\\\\"1\\\\\\\":20.21458102,\\\\\\\"2\\\\\\\":154.20554098,\\\\\\\"3\\\\\\\":45.71120454}}\\\",\\\"1\\\":\\\"\\\",\\\"2\\\":\\\"\\\",\\\"3\\\":\\\"\\\"}}\",\"1\":\"\",\"2\":\"\",\"3\":\"\"}}",
+          "",
+          "",
+          ""
+        ]
+      ]
     },
     "temporal": {
-      "interval": {
-        "0": {
-          "0": "{\"0\":{\"0\":\"{\\\"0\\\":{\\\"0\\\":\\\"2011-01-01T00:00:00Z\\\",\\\"1\\\":\\\"2011-12-31T23:59:59Z\\\"}}\",\"1\":\"\"}}",
-          "1": ""
-        }
-      }
+      "interval": [
+        [
+          "{\"0\":{\"0\":\"{\\\"0\\\":{\\\"0\\\":\\\"{\\\\\\\"0\\\\\\\":{\\\\\\\"0\\\\\\\":\\\\\\\"2011-01-01T00:00:00Z\\\\\\\",\\\\\\\"1\\\\\\\":\\\\\\\"2011-12-31T23:59:59Z\\\\\\\"}}\\\",\\\"1\\\":\\\"\\\"}}\",\"1\":\"\"}}",
+          ""
+        ]
+      ]
     }
   },
   "license": "proprietary",
-  "keywords": {
-    "0": "{\"0\":\"{\\\"0\\\":\\\"Sun-Earth Interactions\\\",\\\"1\\\":\\\"Ionosphere/Magnetosphere Dynamics\\\"}\"}"
-  }
+  "keywords": [
+    "{\"0\":\"{\\\"0\\\":\\\"{\\\\\\\"0\\\\\\\":\\\\\\\"Sun-Earth Interactions\\\\\\\",\\\\\\\"1\\\\\\\":\\\\\\\"Ionosphere/Magnetosphere Dynamics\\\\\\\"}\\\"}\"}"
+  ]
 }
