@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "addit-earthquake-tsunami-tool-costo",
   "stac_version": "1.0.0",
-  "description": "Detection and characterization of Traveling Ionospheric Disturbances (TIDs) from Global Navigation Satellite System (GNSS) measurements using the Atomic Decomposition Detector of Traveling Ionospheric Disturbances (ADDTID) algorithm",
+  "description": "Detection and characterization of Traveling Ionospheric Disturbances (TIDs) from Global Navigation Satellite System (GNSS) measurements using the Atomic Decomposition Detector of Traveling Ionospheric Disturbances (ADDTID) algorithmdd",
   "links": [
     {
       "0": {
