@@ -1,0 +1,67 @@
+{
+  "type": "Collection",
+  "id": "example-collection-id",
+  "stac_version": "1.0.0",
+  "description": "No description available.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "/home/tejas/bc/projects/deepesdl/deep-code/deep_code/utils/hydrology-cube.json",
+      "type": "application/json",
+      "title": "Hydrology Cube"
+    },
+    {
+      "rel": "self",
+      "href": "/home/tejas/bc/projects/deepesdl/deep-code/deep_code/utils/hydrology-cube.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "s3://deep-esdl-public/hydrology-1D-0.009deg-100x60x60-3.0.2.zarr",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://deepesdl.readthedocs.io/en/latest/datasets/hydrology-1D-0-009deg-100x60x60-3-0-2-zarr/",
+      "title": "Documentation"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json"
+  ],
+  "osc:project": "deep-earth-system-data-lab",
+  "osc:type": "product",
+  "osc:status": "ongoing",
+  "osc:region": "Global",
+  "osc:variables": [
+    "Evaporation",
+    "Soil Moisture",
+    "Snow Water Equivalent",
+    "Precipitation"
+  ],
+  "osc:missions": [],
+  "created": "2024-12-23T13:45:40.751546+00:00",
+  "updated": "2024-12-23T13:45:40.751546+00:00",
+  "title": "Hydrology Cube",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -5.69630002975464,
+          28.344299316406264,
+          37.76469997024536,
+          48.17129931640626
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-01-01T00:00:00Z",
+          "2022-10-06T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}
