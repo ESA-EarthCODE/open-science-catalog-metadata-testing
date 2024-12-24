@@ -113,7 +113,9 @@
     "variables/14-co2-delta",
     "variables/ablation-zones-accumulation-zones"
   ],
-  "osc:missions": [],
+  "osc:missions": [
+    "eo-missions/alos-4"
+  ],
   "updated": "2024-09-12T20:32:06.209108Z",
   "title": "ADDTID: An Alternative Tool for Studying Earthquake/Tsunami Signatures in the Ionosphere_Japan_SWARM",
   "extent": {
