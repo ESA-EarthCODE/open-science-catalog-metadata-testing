@@ -34,22 +34,22 @@
     },
     {
       "rel": "related",
-      "href": "../../projects/3d-earth/collection.json",
-      "type": "application/json",
-      "title": "3D-EARTH"
-    },
-    {
-      "rel": "related",
       "href": "../../themes/cryosphere/catalog.json",
       "type": "application/json",
       "title": "Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/aeolus-innovation-studies-on-wind-and-aerosol-information-from-lidar-surface-returns-swails/collection.json",
+      "type": "application/json",
+      "title": "AEOLUS+inno - SWAILS+"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "osc:project": "3d-earth",
+  "osc:project": "aeolus-innovation-studies-on-wind-and-aerosol-information-from-lidar-surface-returns-swails",
   "osc:status": "ongoing",
   "osc:region": "Regional",
   "osc:type": "product",
