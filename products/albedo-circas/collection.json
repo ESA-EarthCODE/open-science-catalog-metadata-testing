@@ -43,12 +43,6 @@
       "href": "../../themes/cryosphere/catalog.json",
       "type": "application/json",
       "title": "Cryosphere"
-    },
-    {
-      "rel": "related",
-      "href": "../../variables/13-co2-delta/catalog.json",
-      "type": "application/json",
-      "title": "(13)CO2 Delta"
     }
   ],
   "stac_extensions": [
@@ -70,9 +64,7 @@
   "osc:themes": [
     "cryosphere"
   ],
-  "osc:variables": [
-    "13-co2-delta"
-  ],
+  "osc:variables": [],
   "osc:missions": [
     "aeolus"
   ],
