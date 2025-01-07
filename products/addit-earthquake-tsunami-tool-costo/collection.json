@@ -72,30 +72,6 @@
       "href": "",
       "type": "",
       "title": ""
-    },
-    {
-      "href": "../../projects/3d-earth/collection.json",
-      "title": "3D-EARTH",
-      "type": "application/json",
-      "rel": "related"
-    },
-    {
-      "href": "../../eo-missions/alos/catalog.json",
-      "title": "ALOS",
-      "type": "application/json",
-      "rel": "related"
-    },
-    {
-      "href": "../../themes/magnetosphere-ionosphere/catalog.json",
-      "title": "Magnetosphere_Ionosphere",
-      "type": "application/json",
-      "rel": "related"
-    },
-    {
-      "href": "../../variables/14-co-number-concentration/catalog.json",
-      "title": "(14)CO Number Concentration",
-      "type": "application/json",
-      "rel": "related"
     }
   ],
   "stac_extensions": [
