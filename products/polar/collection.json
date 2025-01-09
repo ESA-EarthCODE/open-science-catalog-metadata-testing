@@ -1,0 +1,91 @@
+{
+  "type": "Collection",
+  "id": "polar",
+  "stac_version": "1.0.0",
+  "description": "No description available.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "s3://test",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://deepesdl.readthedocs.io/en/latest/datasets/polar-100m-1x2048x2048-1.0.1.zarr/",
+      "title": "Documentation"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/deepesdl/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:project": "deep-earth-system-data-lab",
+  "osc:type": "product",
+  "osc:status": "completed",
+  "osc:region": "global",
+  "osc:themes": [
+    "ocean",
+    "environment"
+  ],
+  "osc:variables": [
+    "crs",
+    "curie-depth-estimates-200x200-km",
+    "curie-depth-estimates-300x300-km",
+    "geothermal-heat-flow-200x200-km",
+    "geothermal-heat-flow-300x300-km",
+    "geothermal-heat-flow-uncertainty-200x200-km",
+    "geothermal-heat-flow-uncertainty-300x300-km",
+    "ice-thickness",
+    "magnetic-anomaly",
+    "subglacial-lake-thw-124",
+    "subglacial-lake-thw-142",
+    "subglacial-lake-thw-170",
+    "subglacial-lake-thw-70"
+  ],
+  "osc:missions": [],
+  "cf:parameter": [
+    {
+      "name": "polar"
+    }
+  ],
+  "created": "2025-01-09T16:18:05.008917+00:00",
+  "updated": "2025-01-09T16:18:05.008917+00:00",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -2602450.0,
+          -1625950.0,
+          -649550.0,
+          494950.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2013-01-01T00:00:00Z",
+          "2017-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}
