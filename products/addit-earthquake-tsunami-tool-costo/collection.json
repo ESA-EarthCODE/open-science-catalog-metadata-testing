@@ -72,12 +72,24 @@
       "href": "",
       "type": "",
       "title": ""
+    },
+    {
+      "href": "../../eo-missions/alos-4/catalog.json",
+      "title": "ALOS-4",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/4d-greenland/collection.json",
+      "type": "application/json",
+      "title": "4D-Greenland"
     }
   ],
   "stac_extensions": [
     "{\"0\":\"{\\\"0\\\":\\\"{\\\\\\\"0\\\\\\\":\\\\\\\"https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json\\\\\\\",\\\\\\\"1\\\\\\\":\\\\\\\"https://stac-extensions.github.io/scientific/v1.0.0/schema.json\\\\\\\",\\\\\\\"2\\\\\\\":\\\\\\\"https://stac-extensions.github.io/cf/v0.2.0/schema.json\\\\\\\"}\\\"}\"}"
   ],
-  "osc:project": "projects/aeolus-innovation-aeurs-expro-lidar-measurements-to-identify-streamers-and-analyze-atmospheric-waves-lisa",
+  "osc:project": "4d-greenland",
   "osc:status": "ongoing",
   "osc:region": "Japan",
   "osc:type": "product",
@@ -114,7 +126,7 @@
     "variables/ablation-zones-accumulation-zones"
   ],
   "osc:missions": [
-    "eo-missions/alos-4"
+    "alos-4"
   ],
   "updated": "2024-09-12T20:32:06.209108Z",
   "title": "ADDTID: An Alternative Tool for Studying Earthquake/Tsunami Signatures in the Ionosphere_Japan_SWARM",
