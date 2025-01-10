@@ -1,0 +1,44 @@
+{
+  "type": "Catalog",
+  "id": "merged-daily-precipitation-product-for-the-mediterranean-region",
+  "stac_version": "1.0.0",
+  "description": "No variable description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/merged-daily-precipitation-product-for-the-mediterranean-region/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/merged-daily-precipitation-product-for-the-mediterranean-region/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/extraAIM/collection.json",
+      "type": "application/json",
+      "title": "extraAIM"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "updated": "2025-01-10T16:16:23.700428+00:00",
+  "themes": [
+    "ocean",
+    "environment"
+  ]
+}
