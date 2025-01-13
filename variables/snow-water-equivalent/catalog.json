@@ -5,12 +5,6 @@
   "description": "The water content obtained from melting accumulated snow.",
   "links": [
     {
-      "rel": "root",
-      "href": "../../catalog.json",
-      "type": "application/json",
-      "title": "Open Science Catalog"
-    },
-    {
       "rel": "via",
       "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/47d8d3db-9aea-49f3-8edd-5216736a85ef?gtm_keyword=SNOW%20WATER%20EQUIVALENT&gtm_scheme=Earth%20Science",
       "type": "text/html",
@@ -47,6 +41,24 @@
       "title": "Variables"
     },
     {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/hydrology/collection.json",
+      "type": "application/json",
+      "title": "hydrology"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/snow-water-equivalent/catalog.json",
       "type": "application/json"
@@ -65,7 +77,7 @@
       ]
     }
   ],
-  "updated": "2024-09-12T20:23:29.840131Z",
+  "updated": "2025-01-13T16:15:07.044657+00:00",
   "keywords": [],
   "title": "Snow Water Equivalent"
 }
