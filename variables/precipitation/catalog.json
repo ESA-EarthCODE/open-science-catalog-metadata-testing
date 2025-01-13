@@ -1,8 +1,8 @@
 {
   "type": "Catalog",
-  "id": "soil-moisture",
+  "id": "precipitation",
   "stac_version": "1.0.0",
-  "description": "TU Wien RT1-Sentinel-1 soil moisutre retrievals",
+  "description": "Precipitation",
   "links": [
     {
       "rel": "root",
@@ -24,13 +24,13 @@
     },
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/soil-moisture/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/precipitation/catalog.json",
       "type": "application/json"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
   ],
-  "updated": "2025-01-13T12:24:08.745677+00:00",
+  "updated": "2025-01-13T12:24:08.746076+00:00",
   "themes": []
 }

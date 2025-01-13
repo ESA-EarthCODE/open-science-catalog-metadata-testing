@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "evaporation",
   "stac_version": "1.0.0",
-  "description": "The physical process by which a liquid or solid is transformed to the gaseous state; the opposite of condensation.",
+  "description": "Evaporation",
   "links": [
     {
       "rel": "root",
@@ -11,16 +11,10 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "via",
-      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/b68ab978-6db6-49ee-84e2-5f37b461a998?gtm_keyword=EVAPORATION&gtm_scheme=Earth%20Science",
-      "type": "text/html",
-      "title": "Description"
-    },
-    {
       "rel": "child",
-      "href": "../../products/hydrology-4D/collection.json",
+      "href": "../../products/hydrology/collection.json",
       "type": "application/json",
-      "title": "Hydrology-4D"
+      "title": "hydrology"
     },
     {
       "rel": "parent",
@@ -37,20 +31,6 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
   ],
-  "themes": [
-    {
-      "scheme": "https://github.com/stac-extensions/osc#theme",
-      "concepts": [
-        {
-          "id": "Atmosphere"
-        },
-        {
-          "id": "Oceans"
-        }
-      ]
-    }
-  ],
-  "updated": "2024-08-27T17:27:42.218832Z",
-  "keywords": [],
-  "title": "Evaporation"
+  "updated": "2025-01-13T12:24:08.745288+00:00",
+  "themes": []
 }
