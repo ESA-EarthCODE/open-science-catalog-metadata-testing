@@ -1,8 +1,8 @@
 {
   "type": "Catalog",
-  "id": "evaporation",
+  "id": "precipitation",
   "stac_version": "1.0.0",
-  "description": "Evaporation",
+  "description": "Precipitation",
   "links": [
     {
       "rel": "root",
@@ -24,13 +24,13 @@
     },
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/evaporation/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/precipitation/catalog.json",
       "type": "application/json"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
   ],
-  "updated": "2025-01-13T12:17:42.172820+00:00",
+  "updated": "2025-01-13T12:17:42.173628+00:00",
   "themes": []
 }

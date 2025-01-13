@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "snow-water-equivalent",
   "stac_version": "1.0.0",
-  "description": "The water content obtained from melting accumulated snow.",
+  "description": "Snow Water Equivalent",
   "links": [
     {
       "rel": "root",
@@ -11,34 +11,10 @@
       "title": "Open Science Catalog"
     },
     {
-      "rel": "via",
-      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/47d8d3db-9aea-49f3-8edd-5216736a85ef?gtm_keyword=SNOW%20WATER%20EQUIVALENT&gtm_scheme=Earth%20Science",
-      "type": "text/html",
-      "title": "Description"
-    },
-    {
-      "rel": "via",
-      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/587e4d68-36f0-45b5-9978-4b3edd58a1c0?gtm_keyword=SNOW%20WATER%20EQUIVALENT&gtm_scheme=Earth%20Science",
-      "type": "text/html",
-      "title": "Description"
-    },
-    {
       "rel": "child",
-      "href": "../../products/snow-liquid-water-europe-alps-alpsnow/collection.json",
+      "href": "../../products/hydrology/collection.json",
       "type": "application/json",
-      "title": "Snow liquid water content (wet snow) for European Alps_Multimission"
-    },
-    {
-      "rel": "child",
-      "href": "../../products/snow-water-equivalent-europe-alps-alpsnow/collection.json",
-      "type": "application/json",
-      "title": "Snow water equivalent for European Alps_Multimission"
-    },
-    {
-      "rel": "child",
-      "href": "../../products/hydrology-4D/collection.json",
-      "type": "application/json",
-      "title": "Hydrology-4D"
+      "title": "hydrology"
     },
     {
       "rel": "parent",
@@ -55,17 +31,6 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
   ],
-  "themes": [
-    {
-      "scheme": "https://github.com/stac-extensions/osc#theme",
-      "concepts": [
-        {
-          "id": "Cryosphere"
-        }
-      ]
-    }
-  ],
-  "updated": "2024-09-12T20:23:29.840131Z",
-  "keywords": [],
-  "title": "Snow Water Equivalent"
+  "updated": "2025-01-13T12:17:42.173434+00:00",
+  "themes": []
 }
