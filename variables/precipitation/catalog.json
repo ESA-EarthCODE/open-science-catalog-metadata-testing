@@ -1,0 +1,36 @@
+{
+  "type": "Catalog",
+  "id": "precipitation",
+  "stac_version": "1.0.0",
+  "description": "Precipitation",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/hydrology/collection.json",
+      "type": "application/json",
+      "title": "hydrology"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/precipitation/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "updated": "2025-01-13T16:58:03.977621+00:00",
+  "themes": []
+}
