@@ -53,6 +53,12 @@
       "title": "Variables"
     },
     {
+      "rel": "child",
+      "href": "../../products/hydrology/collection.json",
+      "type": "application/json",
+      "title": "hydrology"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/soil-moisture/catalog.json",
       "type": "application/json"
@@ -74,7 +80,7 @@
       ]
     }
   ],
-  "updated": "2024-09-12T20:23:29.841131Z",
+  "updated": "2025-01-14T14:45:30.572024+00:00",
   "keywords": [],
   "title": "Soil Moisture"
 }
