@@ -1718,6 +1718,12 @@
       "href": "./sds/collection.json",
       "type": "application/json",
       "title": "sdsdsd"
+    },
+    {
+      "rel": "child",
+      "href": "./foo3/collection.json",
+      "type": "application/json",
+      "title": "Foo"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
