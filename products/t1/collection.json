@@ -7,25 +7,25 @@
   "license": "CC-BY-NC-SA-4.0",
   "extent": {
     "spatial": {
-      "bbox": [
-        [
-          1,
-          2,
-          3,
-          4
-        ]
-      ]
+      "bbox": {
+        "0": {
+          "0": 5.340240835628087,
+          "1": 46.95175837242226,
+          "2": 17.178737224640926,
+          "3": 56.052104049448985
+        }
+      }
     },
     "temporal": {
-      "interval": [
-        [
-          "",
-          ""
-        ]
-      ]
+      "interval": {
+        "0": {
+          "0": "",
+          "1": ""
+        }
+      }
     }
   },
-  "links": [],
+  "links": {},
   "osc:type": "product",
   "osc:status": "ongoing",
   "osc:project": "test"
