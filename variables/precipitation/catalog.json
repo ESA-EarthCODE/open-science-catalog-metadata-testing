@@ -1,8 +1,8 @@
 {
   "type": "Catalog",
-  "id": "snow-water-equivalent",
+  "id": "precipitation",
   "stac_version": "1.0.0",
-  "description": "Snow Water Equivalent",
+  "description": "Precipitation",
   "links": [
     {
       "rel": "root",
@@ -23,15 +23,21 @@
       "title": "Variables"
     },
     {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/sciencekeywords/cad5c02a-e771-434e-bef6-8dced38a68e8?gtm_keyword=PRECIPITATION%20AMOUNT&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/snow-water-equivalent/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/precipitation/catalog.json",
       "type": "application/json"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
   ],
-  "updated": "2025-01-21T09:41:04.901770+00:00",
+  "updated": "2025-01-21T09:41:05.005368+00:00",
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",
@@ -45,5 +51,5 @@
       ]
     }
   ],
-  "title": "snow-water-equivalent"
+  "title": "precipitation"
 }
