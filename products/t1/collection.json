@@ -3,16 +3,16 @@
   "id": "t1",
   "type": "Collection",
   "title": "t1",
-  "description": "",
-  "license": "various",
+  "description": "t1",
+  "license": "CC-BY-NC-SA-4.0",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          "",
-          "",
-          "",
-          ""
+          1,
+          2,
+          3,
+          4
         ]
       ]
     },
@@ -27,6 +27,6 @@
   },
   "links": [],
   "osc:type": "product",
-  "osc:status": "planned",
-  "osc:project": ""
+  "osc:status": "ongoing",
+  "osc:project": "test"
 }
