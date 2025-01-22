@@ -84,12 +84,36 @@
       "href": "../../projects/4d-greenland/collection.json",
       "type": "application/json",
       "title": "4D-Greenland"
+    },
+    {
+      "href": "../../projects/3d-earth/collection.json",
+      "title": "3D-EARTH",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "href": "../../eo-missions/alos-2/catalog.json",
+      "title": "ALOS-2",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "href": "../../themes/land/catalog.json",
+      "title": "Land",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/14-ch4-delta/catalog.json",
+      "type": "application/json",
+      "title": "(14)CH4 Delta"
     }
   ],
   "stac_extensions": [
     "{\"0\":\"{\\\"0\\\":\\\"{\\\\\\\"0\\\\\\\":\\\\\\\"https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json\\\\\\\",\\\\\\\"1\\\\\\\":\\\\\\\"https://stac-extensions.github.io/scientific/v1.0.0/schema.json\\\\\\\",\\\\\\\"2\\\\\\\":\\\\\\\"https://stac-extensions.github.io/cf/v0.2.0/schema.json\\\\\\\"}\\\"}\"}"
   ],
-  "osc:project": "projects/3d-earth",
+  "osc:project": "3d-earth",
   "osc:status": "ongoing",
   "osc:region": "Japan",
   "osc:type": "product",
@@ -112,13 +136,13 @@
     }
   ],
   "osc:themes": [
-    "themes/magnetosphere-ionosphere"
+    "land"
   ],
   "osc:variables": [
-    "variables/13-ch4-delta"
+    "14-ch4-delta"
   ],
   "osc:missions": [
-    "eo-missions/aeolus"
+    "alos-2"
   ],
   "updated": "2024-09-12T20:32:06.209108Z",
   "title": "ADDTID: An Alternative Tool for Studying Earthquake/Tsunami Signatures in the Ionosphere_Japan_SWARM",
