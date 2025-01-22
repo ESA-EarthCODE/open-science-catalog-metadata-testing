@@ -1,4 +1,32 @@
 {
   "id": "t2",
-  "title": "t2"
+  "title": "t2",
+  "stac_version": "1.0.0",
+  "type": "Collection",
+  "description": "",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": {
+        "0": {
+          "0": -13.240882182722999,
+          "1": 23.999981689453108,
+          "2": 10.342862865915563,
+          "3": 44.399999999999984
+        }
+      }
+    },
+    "temporal": {
+      "interval": {
+        "0": {
+          "0": "",
+          "1": ""
+        }
+      }
+    }
+  },
+  "links": {},
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": ""
 }
