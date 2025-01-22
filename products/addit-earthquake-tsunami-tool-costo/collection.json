@@ -89,7 +89,7 @@
   "stac_extensions": [
     "{\"0\":\"{\\\"0\\\":\\\"{\\\\\\\"0\\\\\\\":\\\\\\\"https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json\\\\\\\",\\\\\\\"1\\\\\\\":\\\\\\\"https://stac-extensions.github.io/scientific/v1.0.0/schema.json\\\\\\\",\\\\\\\"2\\\\\\\":\\\\\\\"https://stac-extensions.github.io/cf/v0.2.0/schema.json\\\\\\\"}\\\"}\"}"
   ],
-  "osc:project": "4d-greenland",
+  "osc:project": "projects/3d-earth",
   "osc:status": "ongoing",
   "osc:region": "Japan",
   "osc:type": "product",
@@ -112,21 +112,13 @@
     }
   ],
   "osc:themes": [
-    "themes/magnetosphere-ionosphere",
-    "themes/oceans",
-    "themes/solid-earth"
+    "themes/magnetosphere-ionosphere"
   ],
   "osc:variables": [
-    "variables/13-ch4-delta",
-    "variables/13-co-delta",
-    "variables/13-co2-delta",
-    "variables/14-ch4-delta",
-    "variables/14-co-number-concentration",
-    "variables/14-co2-delta",
-    "variables/ablation-zones-accumulation-zones"
+    "variables/13-ch4-delta"
   ],
   "osc:missions": [
-    "alos-4"
+    "eo-missions/aeolus"
   ],
   "updated": "2024-09-12T20:32:06.209108Z",
   "title": "ADDTID: An Alternative Tool for Studying Earthquake/Tsunami Signatures in the Ionosphere_Japan_SWARM",
