@@ -1,4 +1,32 @@
 {
   "id": "ssd",
-  "title": "sdsds"
+  "title": "sdsds",
+  "stac_version": "1.0.0",
+  "type": "Collection",
+  "description": "",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        [
+          "",
+          ""
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "../../projects/arktalas-hoavva-project/collection.json",
+      "type": "application/json",
+      "title": "ARKATLAS"
+    }
+  ],
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": "arktalas-hoavva-project"
 }
