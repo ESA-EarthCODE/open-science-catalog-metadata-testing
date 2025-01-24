@@ -1,4 +1,25 @@
 {
   "id": "demo2",
-  "title": "demo"
+  "title": "demo",
+  "stac_version": "1.0.0",
+  "type": "Collection",
+  "description": "descriopt",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": {}
+    },
+    "temporal": {
+      "interval": {
+        "0": {
+          "0": "",
+          "1": ""
+        }
+      }
+    }
+  },
+  "links": {},
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": ""
 }
