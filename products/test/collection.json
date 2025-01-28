@@ -25,8 +25,15 @@
       ]
     }
   },
-  "links": [],
+  "links": [
+    {
+      "href": "../../projects/3d-earth/collection.json",
+      "title": "Project: 3D-EARTH",
+      "type": "application/json",
+      "rel": "related"
+    }
+  ],
   "osc:type": "product",
   "osc:status": "planned",
-  "osc:project": "projects/3d-earth"
+  "osc:project": "3d-earth"
 }
