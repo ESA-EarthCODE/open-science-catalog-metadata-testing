@@ -38,8 +38,15 @@
   ],
   "osc:name": "HR-AlbedoMap: Generation of high-resolution spectral and broadband surface albedo products based on Sentinel-2 MSI measurements",
   "osc:status": "completed",
-  "osc:themes": [
-    "Land"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

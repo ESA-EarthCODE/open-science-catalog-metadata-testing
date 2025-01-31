@@ -56,9 +56,18 @@
   ],
   "osc:name": "Sentinel-3 for Science, Land Study 1: Snow",
   "osc:status": "completed",
-  "osc:themes": [
-    "Cryosphere",
-    "Land"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        },
+        {
+          "id": "land"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

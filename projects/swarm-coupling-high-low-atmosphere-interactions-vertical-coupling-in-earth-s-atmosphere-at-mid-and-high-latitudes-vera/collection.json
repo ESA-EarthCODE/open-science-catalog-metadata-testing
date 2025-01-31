@@ -44,8 +44,15 @@
   ],
   "osc:name": "SWARM+ COUPLING: HIGH-LOW ATMOSPHERE INTERACTIONS: VERtical coupling in Earth's Atmosphere at mid and high latitudes (VERA)",
   "osc:status": "completed",
-  "osc:themes": [
-    "Magnetosphere_Ionosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "magnetosphere-ionosphere"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

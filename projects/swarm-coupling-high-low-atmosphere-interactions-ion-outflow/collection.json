@@ -62,8 +62,15 @@
   ],
   "osc:name": "Swarm+ Coupling High-Low Atmosphere Interactions: Ion Outflow",
   "osc:status": "completed",
-  "osc:themes": [
-    "Magnetosphere_Ionosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "magnetosphere-ionosphere"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

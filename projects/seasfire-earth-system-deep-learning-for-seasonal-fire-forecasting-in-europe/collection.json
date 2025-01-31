@@ -44,8 +44,15 @@
   ],
   "osc:name": "SeasFire: Earth System Deep learning for Seasonal Fire Forecasting in Europe",
   "osc:status": "ongoing",
-  "osc:themes": [
-    "Oceans"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

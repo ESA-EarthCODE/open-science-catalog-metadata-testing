@@ -96,8 +96,15 @@
       "name": "suspended_particulate_matter"
     }
   ],
-  "osc:themes": [
-    "oceans"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "particulate-organic-matter",

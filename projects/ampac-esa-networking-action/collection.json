@@ -38,9 +38,18 @@
   ],
   "osc:name": "AMPAC ESA Networking Action",
   "osc:status": "ongoing",
-  "osc:themes": [
-    "Cryosphere",
-    "Atmosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        },
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

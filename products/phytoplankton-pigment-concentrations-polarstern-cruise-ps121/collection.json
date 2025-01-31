@@ -78,9 +78,18 @@
       "name": "phytoplankton_pigment_concentrations"
     }
   ],
-  "osc:themes": [
-    "oceans",
-    "atmosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        },
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "phytoplankton"

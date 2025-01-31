@@ -72,8 +72,15 @@
       "name": "soil_moisture_based_inversion_approach_ebro_irrigation"
     }
   ],
-  "osc:themes": [
-    "land"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "anthropogenic-water-use"

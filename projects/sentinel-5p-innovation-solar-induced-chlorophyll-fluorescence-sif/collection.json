@@ -44,9 +44,18 @@
   ],
   "osc:name": "SENTINEL-5P+ INNOVATION SOLAR INDUCED CHLOROPHYLL FLUORESCENCE (SIF)",
   "osc:status": "completed",
-  "osc:themes": [
-    "Atmosphere",
-    "Land"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        },
+        {
+          "id": "land"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

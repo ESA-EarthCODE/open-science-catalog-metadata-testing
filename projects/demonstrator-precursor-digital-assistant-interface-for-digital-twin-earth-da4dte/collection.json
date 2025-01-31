@@ -38,9 +38,18 @@
   ],
   "osc:name": "Demonstrator Precursor Digital Assistant Interface For Digital Twin Earth (DA4DTE)",
   "osc:status": "ongoing",
-  "osc:themes": [
-    "Land",
-    "Oceans"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        },
+        {
+          "id": "oceans"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

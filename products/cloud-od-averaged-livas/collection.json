@@ -72,8 +72,15 @@
       "name": "cloud_optical_depth"
     }
   ],
-  "osc:themes": [
-    "atmosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "cloud-optical-depth-thickness"

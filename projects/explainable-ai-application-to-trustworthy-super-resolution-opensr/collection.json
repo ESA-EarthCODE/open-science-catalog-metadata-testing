@@ -65,13 +65,13 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Land"
+          "id": "land"
         },
         {
-          "id": "Oceans"
+          "id": "oceans"
         },
         {
-          "id": "Atmosphere"
+          "id": "atmosphere"
         }
       ]
     }

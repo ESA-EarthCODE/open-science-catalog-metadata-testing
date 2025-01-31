@@ -44,8 +44,15 @@
   ],
   "osc:name": "SEN4CARBON Theme 1: Terrestrial Gross Primary Production (SEN4GPP)",
   "osc:status": "ongoing",
-  "osc:themes": [
-    "Land"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

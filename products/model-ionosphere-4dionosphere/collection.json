@@ -69,8 +69,15 @@
       "name": "model_ionosphere"
     }
   ],
-  "osc:themes": [
-    "magnetosphere-ionosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "magnetosphere-ionosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "ionosphere-magnetosphere-dynamics"

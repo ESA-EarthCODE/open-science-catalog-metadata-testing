@@ -38,8 +38,15 @@
   ],
   "osc:name": "PROMCOM: Production of lower tropospheric methane and carbon monoxide distributions through combined use of ESA Sentinel-5 Precursor shortwave infrared and IASI/CrIS thermal infrared satellite data",
   "osc:status": "completed",
-  "osc:themes": [
-    "Atmosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

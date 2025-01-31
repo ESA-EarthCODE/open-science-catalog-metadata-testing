@@ -50,8 +50,15 @@
     ],
     "osc:name": "Wide-area Sentinel-1 Deformation Classification for Advanced Data Exploitation (WISE)",
     "osc:status": "completed",
-    "osc:themes": [
-      "Solid Earth"
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "solid-earth"
+          }
+        ]
+      }
     ],
     "osc:type": "project",
     "contacts": [

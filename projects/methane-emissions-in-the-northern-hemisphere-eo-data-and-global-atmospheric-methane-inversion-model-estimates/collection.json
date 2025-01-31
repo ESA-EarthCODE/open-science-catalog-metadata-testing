@@ -38,9 +38,18 @@
   ],
   "osc:name": "Methane emissions in the Northern Hemisphere by applying both data from Earth Observing (EO) satellites and global atmospheric methane inversion model estimates",
   "osc:status": "completed",
-  "osc:themes": [
-    "Atmosphere",
-    "Cryosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        },
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

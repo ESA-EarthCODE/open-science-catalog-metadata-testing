@@ -54,10 +54,10 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Oceans"
+          "id": "oceans"
         },
         {
-          "id": "Atmosphere"
+          "id": "atmosphere"
         }
       ]
     }

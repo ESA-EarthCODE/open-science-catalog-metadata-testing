@@ -65,8 +65,15 @@
       "name": "crust_and_upper_mantle_model"
     }
   ],
-  "osc:themes": [
-    "solid-earth"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "solid-earth"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "gravitational-field"

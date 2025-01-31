@@ -38,8 +38,15 @@
   ],
   "osc:name": "Using deep learning with CryoSat radar altimetry to adjust elevations and map SURFace penetration (CryoSURF)",
   "osc:status": "completed",
-  "osc:themes": [
-    "Cryosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

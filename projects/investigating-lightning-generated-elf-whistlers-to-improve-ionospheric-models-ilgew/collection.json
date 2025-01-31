@@ -44,9 +44,18 @@
   ],
   "osc:name": "INVESTIGATING LIGHTNING GENERATED ELF WHISTLERS TO IMPROVE IONOSPHERIC MODELS (ILGEW)",
   "osc:status": "completed",
-  "osc:themes": [
-    "Atmosphere",
-    "Magnetosphere_Ionosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        },
+        {
+          "id": "magnetosphere-ionosphere"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

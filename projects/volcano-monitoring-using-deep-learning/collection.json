@@ -44,9 +44,18 @@
   ],
   "osc:name": "Volcano Monitoring using Deep Learning",
   "osc:status": "completed",
-  "osc:themes": [
-    "Land",
-    "Solid Earth"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        },
+        {
+          "id": "solid-earth"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

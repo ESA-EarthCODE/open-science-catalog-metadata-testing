@@ -67,8 +67,15 @@
       "name": "aeolus_larissa_2a"
     }
   ],
-  "osc:themes": [
-    "atmosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "aerosol-optical-depth-thickness"

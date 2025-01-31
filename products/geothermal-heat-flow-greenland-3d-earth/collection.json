@@ -78,8 +78,15 @@
       "name": "geothermal_heat_flow"
     }
   ],
-  "osc:themes": [
-    "solid-earth"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "solid-earth"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "geothermal-energy"

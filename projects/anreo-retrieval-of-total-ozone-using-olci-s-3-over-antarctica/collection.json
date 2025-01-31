@@ -44,8 +44,15 @@
   ],
   "osc:name": "AnREO: Retrieval of Total Ozone using OLCI-S-3 over Antarctica",
   "osc:status": "completed",
-  "osc:themes": [
-    "Atmosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

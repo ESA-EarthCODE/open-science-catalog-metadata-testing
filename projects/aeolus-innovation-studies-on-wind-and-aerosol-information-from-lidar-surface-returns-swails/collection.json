@@ -44,9 +44,18 @@
   ],
   "osc:name": "AEOLUS+ INNOVATION - STUDIES ON WIND AND AEROSOL INFORMATION FROM LIDAR SURFACE RETURNS (SWAILS+)",
   "osc:status": "completed",
-  "osc:themes": [
-    "Atmosphere",
-    "Oceans"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        },
+        {
+          "id": "oceans"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

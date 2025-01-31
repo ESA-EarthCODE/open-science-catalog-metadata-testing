@@ -50,8 +50,15 @@
   ],
   "osc:name": "3D-Earth",
   "osc:status": "completed",
-  "osc:themes": [
-    "Solid Earth"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "solid-earth"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

@@ -38,8 +38,15 @@
   ],
   "osc:name": "AEOLUS+ INNOVATION - EXPRO+ IMPROVING DUST MONITORING AND FORECASTING THROUGH AEOLUS WIND DATA ASSIMILATION (NEWTON)",
   "osc:status": "completed",
-  "osc:themes": [
-    "Atmosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

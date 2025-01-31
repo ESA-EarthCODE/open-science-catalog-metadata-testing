@@ -44,9 +44,18 @@
   ],
   "osc:name": "DEEP EXTREMES",
   "osc:status": "completed",
-  "osc:themes": [
-    "Land",
-    "Oceans"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        },
+        {
+          "id": "oceans"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

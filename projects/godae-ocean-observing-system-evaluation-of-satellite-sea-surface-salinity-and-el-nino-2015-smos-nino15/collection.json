@@ -44,8 +44,15 @@
   ],
   "osc:name": "GODAE OCEAN OBSERVING SYSTEM EVALUATION OF SATELLITE SEA SURFACE SALINITY AND EL NINO 2015 (SMOS-NINO15)",
   "osc:status": "completed",
-  "osc:themes": [
-    "Oceans"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

@@ -104,8 +104,15 @@
   ],
   "osc:name": "4D-ANTARCTICA",
   "osc:status": "ongoing",
-  "osc:themes": [
-    "Cryosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

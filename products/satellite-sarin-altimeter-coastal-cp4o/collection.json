@@ -78,9 +78,18 @@
       "name": "satellite_sarin_altimeter_coastal"
     }
   ],
-  "osc:themes": [
-    "oceans",
-    "cryosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        },
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "sea-surface-height-anomaly-ssha"

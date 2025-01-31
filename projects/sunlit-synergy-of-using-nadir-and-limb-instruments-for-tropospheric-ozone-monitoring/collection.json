@@ -56,8 +56,15 @@
   ],
   "osc:name": "SUNLIT - Synergy of Using Nadir and Limb Instruments for Tropospheric ozone monitoring",
   "osc:status": "completed",
-  "osc:themes": [
-    "Atmosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

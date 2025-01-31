@@ -39,8 +39,15 @@
   ],
   "osc:name": "Examining GReenland s Ice Marginal Lakes under a changing climate (GRIML)",
   "osc:status": "ongoing",
-  "osc:themes": [
-    "Cryosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

@@ -78,9 +78,18 @@
       "name": "mass_concentration_of_diazotrophic_phytoplankton_expressed_as_chlorophyll_in_sea_water"
     }
   ],
-  "osc:themes": [
-    "oceans",
-    "atmosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        },
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "chlorophyll-concentration"

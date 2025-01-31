@@ -56,9 +56,18 @@
   ],
   "osc:name": "AEOLUS+ INNOVATION - CDOM-PROXY RETRIEVAL FROM AEOLUS OBSERVATIONS (COLOR)",
   "osc:status": "ongoing",
-  "osc:themes": [
-    "Atmosphere",
-    "Oceans"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        },
+        {
+          "id": "oceans"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

@@ -68,9 +68,18 @@
   ],
   "osc:name": "HydroCoastal: coastal ocean and inland water altimetry",
   "osc:status": "completed",
-  "osc:themes": [
-    "Oceans",
-    "Land"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        },
+        {
+          "id": "land"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

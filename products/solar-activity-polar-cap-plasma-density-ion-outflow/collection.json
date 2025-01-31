@@ -74,8 +74,15 @@
       "name": "solar_activity"
     }
   ],
-  "osc:themes": [
-    "magnetosphere-ionosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "magnetosphere-ionosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "solar-activity"

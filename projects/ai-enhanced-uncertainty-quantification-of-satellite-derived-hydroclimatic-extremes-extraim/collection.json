@@ -38,10 +38,21 @@
   ],
   "osc:name": "AI-ENHANCED UNCERTAINTY QUANTIFICATION OF SATELLITE-DERIVED HYDROCLIMATIC EXTREMES (extrAIM)",
   "osc:status": "ongoing",
-  "osc:themes": [
-    "Land",
-    "Oceans",
-    "Atmosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        },
+        {
+          "id": "oceans"
+        },
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

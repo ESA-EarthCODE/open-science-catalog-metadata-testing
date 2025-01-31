@@ -48,16 +48,16 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Land"
+          "id": "land"
         },
         {
-          "id": "Cryosphere"
+          "id": "cryosphere"
         },
         {
-          "id": "Magnetosphere_Ionosphere"
+          "id": "magnetosphere-ionosphere"
         },
         {
-          "id": "Oceans"
+          "id": "oceans"
         }
       ]
     }

@@ -67,8 +67,15 @@
       "name": "sudden_stratospheric_warming"
     }
   ],
-  "osc:themes": [
-    "magnetosphere-ionosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "magnetosphere-ionosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "sudden-stratospheric-warming-ssw"

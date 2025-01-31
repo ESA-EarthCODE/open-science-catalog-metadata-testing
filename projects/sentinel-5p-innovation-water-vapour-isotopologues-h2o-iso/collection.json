@@ -38,8 +38,15 @@
   ],
   "osc:name": "SENTINEL-5P+ INNOVATION WATER VAPOUR ISOTOPOLOGUES (H2O-ISO)",
   "osc:status": "completed",
-  "osc:themes": [
-    "Atmosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

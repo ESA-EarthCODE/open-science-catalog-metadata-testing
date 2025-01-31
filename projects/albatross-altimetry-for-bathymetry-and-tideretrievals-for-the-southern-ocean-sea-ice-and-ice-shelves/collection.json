@@ -68,8 +68,15 @@
   ],
   "osc:name": "ALBATROSS - ALtimetry for BAthymetry and TideRetrievals for the Southern Ocean, Sea ice and ice Shelves",
   "osc:status": "ongoing",
-  "osc:themes": [
-    "Cryosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

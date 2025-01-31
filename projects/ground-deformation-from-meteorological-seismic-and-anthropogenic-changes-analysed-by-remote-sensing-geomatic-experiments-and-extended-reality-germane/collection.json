@@ -38,8 +38,15 @@
   ],
   "osc:name": "Ground Deformation from Meteorological, Seismic and Anthropogenic Changes Analysed by Remote Sensing, Geomatic Experiments and Extended Reality - GERMANE",
   "osc:status": "ongoing",
-  "osc:themes": [
-    "Solid Earth"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "solid-earth"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

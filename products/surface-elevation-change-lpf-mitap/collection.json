@@ -83,9 +83,18 @@
       "name": "surface_elevation_change_and_temporal_coverage_information"
     }
   ],
-  "osc:themes": [
-    "cryosphere",
-    "land"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        },
+        {
+          "id": "land"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "digital-elevation-terrain-model-dem",

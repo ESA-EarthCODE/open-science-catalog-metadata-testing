@@ -97,8 +97,15 @@
       "name": "mass_concentration_of_phytoplankton_expressed_as_carbon_in_sea_water"
     }
   ],
-  "osc:themes": [
-    "oceans"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "phytoplankton"

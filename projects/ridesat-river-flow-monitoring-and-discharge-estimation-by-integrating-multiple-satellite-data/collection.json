@@ -170,8 +170,15 @@
   ],
   "osc:name": "RIDESAT - RIver flow monitoring and Discharge Estimation by integrating multiple SATellite data",
   "osc:status": "completed",
-  "osc:themes": [
-    "Land"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

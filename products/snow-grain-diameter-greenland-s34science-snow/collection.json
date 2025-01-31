@@ -73,9 +73,18 @@
       "name": "snow_grain_diameter"
     }
   ],
-  "osc:themes": [
-    "cryosphere",
-    "land"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        },
+        {
+          "id": "land"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "snow-grain-size"

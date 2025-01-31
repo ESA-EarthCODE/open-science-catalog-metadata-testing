@@ -38,8 +38,15 @@
   ],
   "osc:name": "deteCtion and threAts of maRinE Heat waves (CAREHeat)",
   "osc:status": "ongoing",
-  "osc:themes": [
-    "Oceans"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

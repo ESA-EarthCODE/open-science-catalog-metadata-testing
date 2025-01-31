@@ -38,8 +38,15 @@
   ],
   "osc:name": "SMOWS: Satellite Mode Waters Salinity, in synergy with Temperature and Sea Level",
   "osc:status": "completed",
-  "osc:themes": [
-    "Oceans"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

@@ -33,10 +33,21 @@
   ],
   "osc:name": "Explainable AI: application to trustworthy super-resolution (OpenSR)Â ",
   "osc:status": "ongoing",
-  "osc:themes": [
-    "Land",
-    "Oceans",
-    "Atmosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        },
+        {
+          "id": "oceans"
+        },
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

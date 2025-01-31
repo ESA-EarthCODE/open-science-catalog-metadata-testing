@@ -38,8 +38,15 @@
   ],
   "osc:name": "BIODIVERSITY+ PRECURSORS EXPRO+ THEME 2 - FRESHWATER  (BIOMONDO)",
   "osc:status": "ongoing",
-  "osc:themes": [
-    "Land"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

@@ -33,8 +33,15 @@
   ],
   "osc:name": "DYNAMIC TOPOGRAPHY AND SATELLITE GRAVITY DATA JOINT INVERSION USING REDUCED ORDER MODELS (DYGIRO)",
   "osc:status": "ongoing",
-  "osc:themes": [
-    "Solid Earth"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "solid-earth"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

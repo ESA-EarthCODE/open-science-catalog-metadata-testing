@@ -44,8 +44,15 @@
   ],
   "osc:name": "Cryosat+ Antarctic Ocean",
   "osc:status": "completed",
-  "osc:themes": [
-    "Cryosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

@@ -152,9 +152,18 @@
       "name": "ocean_freshwater_flux"
     }
   ],
-  "osc:themes": [
-    "oceans",
-    "land"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        },
+        {
+          "id": "land"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "fresh-water-river-discharge"

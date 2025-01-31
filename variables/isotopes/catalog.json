@@ -36,16 +36,16 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Solid Earth"
+          "id": "solid-earth"
         },
         {
-          "id": "Oceans"
+          "id": "oceans"
         },
         {
-          "id": "Cryosphere"
+          "id": "cryosphere"
         },
         {
-          "id": "Land"
+          "id": "land"
         }
       ]
     }

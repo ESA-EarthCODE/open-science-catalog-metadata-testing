@@ -33,8 +33,15 @@
   ],
   "osc:name": "Polar Low detection from S-1 data",
   "osc:status": "completed",
-  "osc:themes": [
-    "Oceans"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

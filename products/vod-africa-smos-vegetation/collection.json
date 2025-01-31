@@ -65,8 +65,15 @@
       "name": "biomass"
     }
   ],
-  "osc:themes": [
-    "land"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "biomass"

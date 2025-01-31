@@ -44,8 +44,15 @@
   ],
   "osc:name": "SMOS+ Med-Sea Surface Salinity in the Mediterranean",
   "osc:status": "completed",
-  "osc:themes": [
-    "Oceans"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

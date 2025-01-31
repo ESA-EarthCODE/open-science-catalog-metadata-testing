@@ -38,8 +38,15 @@
   ],
   "osc:name": "SEN4CARBON Theme 2: Fire Dynamics (SENSE4FIRE)",
   "osc:status": "ongoing",
-  "osc:themes": [
-    "Atmosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

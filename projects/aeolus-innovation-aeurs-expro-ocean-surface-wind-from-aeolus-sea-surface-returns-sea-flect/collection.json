@@ -37,7 +37,7 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
   ],
-  "osc:name": "AEOLUS+ INNOVATION â€š EXPRO+ OCEAN SURFACE WIND FROM AEOLUS SEA SURFACE RETURNS (SEA-FLECT)",
+  "osc:name": "AEOLUS+ INNOVATION – EXPRO+ OCEAN SURFACE WIND FROM AEOLUS SEA SURFACE RETURNS (SEA-FLECT)",
   "osc:status": "completed",
   "osc:type": "project",
   "contacts": [
@@ -70,10 +70,10 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Atmosphere"
+          "id": "atmosphere"
         },
         {
-          "id": "Oceans"
+          "id": "oceans"
         }
       ]
     }

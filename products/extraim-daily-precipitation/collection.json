@@ -96,10 +96,21 @@
       "name": "daily-precipitation-amount"
     }
   ],
-  "osc:themes": [
-    "land",
-    "oceans",
-    "atmosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        },
+        {
+          "id": "oceans"
+        },
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "precipitation-amount"

@@ -84,8 +84,15 @@
       "name": "sea_ice_freeboard_and_thickness_snow_depth"
     }
   ],
-  "osc:themes": [
-    "cryosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "ice-depth-thickness",

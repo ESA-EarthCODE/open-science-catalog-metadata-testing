@@ -85,9 +85,18 @@
       "name": "high_resolution_tidal_atlas"
     }
   ],
-  "osc:themes": [
-    "oceans",
-    "cryosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        },
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "sea-surface-height-anomaly-ssha"

@@ -122,8 +122,15 @@
   ],
   "osc:name": "Earth Observation data For Science and Innovation in the Black Sea",
   "osc:status": "completed",
-  "osc:themes": [
-    "Oceans"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

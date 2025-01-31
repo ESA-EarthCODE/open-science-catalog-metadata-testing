@@ -44,9 +44,18 @@
   ],
   "osc:name": "GOCE+ ANTARCTICA",
   "osc:status": "completed",
-  "osc:themes": [
-    "Solid Earth",
-    "Cryosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "solid-earth"
+        },
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

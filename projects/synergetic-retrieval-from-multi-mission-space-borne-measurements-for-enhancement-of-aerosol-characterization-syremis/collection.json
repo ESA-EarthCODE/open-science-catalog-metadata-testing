@@ -33,8 +33,15 @@
   ],
   "osc:name": "Synergetic retrieval from multi-mission space-borne measurements for enhancement of aerosol characterization  (SYREMIS)",
   "osc:status": "ongoing",
-  "osc:themes": [
-    "Atmosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

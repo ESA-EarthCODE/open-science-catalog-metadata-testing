@@ -73,9 +73,18 @@
       "name": "lightning_whistler_events"
     }
   ],
-  "osc:themes": [
-    "atmosphere",
-    "magnetosphere-ionosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        },
+        {
+          "id": "magnetosphere-ionosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "lightning"

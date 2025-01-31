@@ -78,13 +78,13 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Atmosphere"
+          "id": "atmosphere"
         },
         {
-          "id": "Cryosphere"
+          "id": "cryosphere"
         },
         {
-          "id": "Magnetosphere_Ionosphere"
+          "id": "magnetosphere-ionosphere"
         }
       ]
     }

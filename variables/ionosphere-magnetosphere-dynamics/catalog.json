@@ -48,7 +48,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Magnetosphere_Ionosphere"
+          "id": "magnetosphere-ionosphere"
         }
       ]
     }

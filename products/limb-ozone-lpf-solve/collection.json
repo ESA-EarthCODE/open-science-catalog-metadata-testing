@@ -71,8 +71,15 @@
       "name": "limb_ozone"
     }
   ],
-  "osc:themes": [
-    "atmosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "total-ozone"

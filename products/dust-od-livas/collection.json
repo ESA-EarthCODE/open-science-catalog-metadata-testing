@@ -72,8 +72,15 @@
       "name": "atmosphere_optical_thickness_due_to_dust_dry_aerosol"
     }
   ],
-  "osc:themes": [
-    "atmosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "aerosol-optical-depth-thickness"

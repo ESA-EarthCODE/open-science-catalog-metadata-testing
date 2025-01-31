@@ -38,8 +38,15 @@
   ],
   "osc:name": "FFSAR - Coastal Fully Focused SAR Altimetry and Innovative River Level Gauges for Coastal Monitoring",
   "osc:status": "ongoing",
-  "osc:themes": [
-    "Oceans"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

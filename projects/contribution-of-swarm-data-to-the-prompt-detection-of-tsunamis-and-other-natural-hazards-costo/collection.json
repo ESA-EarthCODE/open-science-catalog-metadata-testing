@@ -44,9 +44,18 @@
   ],
   "osc:name": "Contribution of Swarm data to the prompt detection of Tsunamis and other natural hazards  (COSTO)",
   "osc:status": "completed",
-  "osc:themes": [
-    "Solid Earth",
-    "Magnetosphere_Ionosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "solid-earth"
+        },
+        {
+          "id": "magnetosphere-ionosphere"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

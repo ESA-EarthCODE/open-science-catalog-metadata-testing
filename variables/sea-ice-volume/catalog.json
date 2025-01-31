@@ -48,10 +48,10 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "Cryosphere"
+          "id": "cryosphere"
         },
         {
-          "id": "Oceans"
+          "id": "oceans"
         }
       ]
     }

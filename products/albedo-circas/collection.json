@@ -85,11 +85,24 @@
       "name": "surface_albedo"
     }
   ],
-  "osc:themes": [
-    "land",
-    "cryosphere",
-    "atmosphere",
-    "oceans"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        },
+        {
+          "id": "cryosphere"
+        },
+        {
+          "id": "atmosphere"
+        },
+        {
+          "id": "oceans"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "albedo"

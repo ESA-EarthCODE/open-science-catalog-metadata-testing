@@ -78,9 +78,18 @@
       "name": "mean_spectral_diffuse_attenuation_coefficient"
     }
   ],
-  "osc:themes": [
-    "oceans",
-    "atmosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        },
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "diffuse-attenuation-coefficient-dac"

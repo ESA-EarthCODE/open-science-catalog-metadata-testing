@@ -50,9 +50,18 @@
   ],
   "osc:name": "Arctic + Salinity",
   "osc:status": "completed",
-  "osc:themes": [
-    "Oceans",
-    "Cryosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        },
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

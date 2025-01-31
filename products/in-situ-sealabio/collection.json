@@ -73,9 +73,18 @@
       "name": "mass_fraction_of_dissolved_organic_matter"
     }
   ],
-  "osc:themes": [
-    "oceans",
-    "land"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        },
+        {
+          "id": "land"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "colored-dissolved-organic-matter"

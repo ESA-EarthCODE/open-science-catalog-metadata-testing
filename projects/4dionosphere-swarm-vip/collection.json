@@ -44,8 +44,15 @@
   ],
   "osc:name": "4DIONOSPHERE (SWARM VIP)",
   "osc:status": "completed",
-  "osc:themes": [
-    "Magnetosphere_Ionosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "magnetosphere-ionosphere"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

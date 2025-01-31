@@ -84,8 +84,15 @@
       "name": "oceanic_total_alkalinity_and_dissolved_inorganic_carbon"
     }
   ],
-  "osc:themes": [
-    "oceans"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "dissolved-organic-carbon",

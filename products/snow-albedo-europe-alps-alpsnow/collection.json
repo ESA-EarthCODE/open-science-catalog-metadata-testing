@@ -93,10 +93,21 @@
       "name": "snow_albedo"
     }
   ],
-  "osc:themes": [
-    "cryosphere",
-    "atmosphere",
-    "land"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        },
+        {
+          "id": "atmosphere"
+        },
+        {
+          "id": "land"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "albedo"

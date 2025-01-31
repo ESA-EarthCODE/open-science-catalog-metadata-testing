@@ -109,9 +109,18 @@
       "name": "chaos_field_model_core"
     }
   ],
-  "osc:themes": [
-    "solid-earth",
-    "magnetosphere-ionosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "solid-earth"
+        },
+        {
+          "id": "magnetosphere-ionosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "magnetic-fields-magnetic-currents",

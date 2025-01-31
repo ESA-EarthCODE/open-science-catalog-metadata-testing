@@ -88,9 +88,18 @@
       "name": "gravity_anomalies"
     }
   ],
-  "osc:themes": [
-    "cryosphere",
-    "solid-earth"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        },
+        {
+          "id": "solid-earth"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "gravity-anomalies"

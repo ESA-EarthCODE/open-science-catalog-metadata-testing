@@ -72,8 +72,15 @@
       "name": "surface_reflectance_tropomi"
     }
   ],
-  "osc:themes": [
-    "atmosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "reflectance"

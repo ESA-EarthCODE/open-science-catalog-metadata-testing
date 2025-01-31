@@ -73,9 +73,18 @@
       "name": "low_resolution_satellite_altimeter_open_ocean"
     }
   ],
-  "osc:themes": [
-    "oceans",
-    "cryosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        },
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "sea-surface-height-anomaly-ssha"

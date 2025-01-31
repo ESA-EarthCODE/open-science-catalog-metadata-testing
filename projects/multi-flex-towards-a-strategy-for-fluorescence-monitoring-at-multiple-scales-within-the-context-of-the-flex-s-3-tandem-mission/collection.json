@@ -38,8 +38,15 @@
   ],
   "osc:name": "MULTI-FLEX: towards a strategy for fluorescence monitoring at multiple scales within the context of the FLEX/S-3 tandem mission",
   "osc:status": "completed",
-  "osc:themes": [
-    "Land"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [

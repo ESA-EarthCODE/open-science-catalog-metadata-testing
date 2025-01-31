@@ -86,9 +86,18 @@
       "name": "density_temperature_viscosity"
     }
   ],
-  "osc:themes": [
-    "solid-earth",
-    "cryosphere"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "solid-earth"
+        },
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
   ],
   "osc:variables": [
     "gravitational-field",

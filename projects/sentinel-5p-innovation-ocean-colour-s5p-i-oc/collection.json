@@ -86,8 +86,15 @@
   ],
   "osc:name": "SENTINEL-5P+ INNOVATION OCEAN COLOUR (S5P+-I-OC)",
   "osc:status": "ongoing",
-  "osc:themes": [
-    "Oceans"
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
   ],
   "osc:type": "project",
   "contacts": [
