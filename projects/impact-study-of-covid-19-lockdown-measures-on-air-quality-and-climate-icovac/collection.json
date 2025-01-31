@@ -30,6 +30,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/impact-study-of-covid-19-lockdown-measures-on-air-quality-and-climate-icovac/collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
     }
   ],
   "stac_extensions": [
@@ -95,10 +101,10 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -180,
+          -90,
+          180,
+          90
         ]
       ]
     },

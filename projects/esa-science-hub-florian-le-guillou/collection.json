@@ -42,6 +42,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/esa-science-hub-florian-le-guillou/collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
     }
   ],
   "stac_extensions": [
@@ -86,8 +92,8 @@
     "spatial": {
       "bbox": [
         [
-          280.0,
-          25.0,
+          280,
+          25,
           349.9,
           49.9
         ]

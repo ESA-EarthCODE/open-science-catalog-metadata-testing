@@ -30,6 +30,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/hr-albedomap-generation-of-high-resolution-spectral-and-broadband-surface-albedo-products-based-on-sentinel-2-msi-measurements/collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
     }
   ],
   "stac_extensions": [
@@ -77,10 +83,10 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -180,
+          -90,
+          180,
+          90
         ]
       ]
     },
