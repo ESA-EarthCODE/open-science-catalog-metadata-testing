@@ -1,0 +1,148 @@
+{
+  "type": "Collection",
+  "id": "black-sea",
+  "stac_version": "1.1.0",
+  "description": "No description available.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "s3://test",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://deepesdl.readthedocs.io/en/latest/datasets/black-sea-256x128x128.zarr/",
+      "title": "Documentation"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../varibales/sea_surface_wave_significant_height/catalog.json",
+      "type": "application/json",
+      "title": "Variable: sea_surface_wave_significant_height"
+    },
+    {
+      "rel": "related",
+      "href": "../../varibales/chlorophyll_concentration/catalog.json",
+      "type": "application/json",
+      "title": "Variable: chlorophyll_concentration"
+    },
+    {
+      "rel": "related",
+      "href": "../../varibales/crs/catalog.json",
+      "type": "application/json",
+      "title": "Variable: crs"
+    },
+    {
+      "rel": "related",
+      "href": "../../varibales/sea_surface_height_above_sea_level/catalog.json",
+      "type": "application/json",
+      "title": "Variable: sea_surface_height_above_sea_level"
+    },
+    {
+      "rel": "related",
+      "href": "../../varibales/sea_surface_salinity/catalog.json",
+      "type": "application/json",
+      "title": "Variable: sea_surface_salinity"
+    },
+    {
+      "rel": "related",
+      "href": "../../varibales/sea_surface_temperature/catalog.json",
+      "type": "application/json",
+      "title": "Variable: sea_surface_temperature"
+    },
+    {
+      "rel": "related",
+      "href": "../../varibales/surface_geostrophic_eastward_sea_water_velocity/catalog.json",
+      "type": "application/json",
+      "title": "Variable: surface_geostrophic_eastward_sea_water_velocity"
+    },
+    {
+      "rel": "related",
+      "href": "../../varibales/surface_geostrophic_eastward_sea_water_velocity_assuming_sea_level_for_geoid/catalog.json",
+      "type": "application/json",
+      "title": "Variable: surface_geostrophic_eastward_sea_water_velocity_assuming_sea_level_for_geoid"
+    },
+    {
+      "rel": "related",
+      "href": "../../varibales/surface_geostrophic_northward_sea_water_velocity/catalog.json",
+      "type": "application/json",
+      "title": "Variable: surface_geostrophic_northward_sea_water_velocity"
+    },
+    {
+      "rel": "related",
+      "href": "../../varibales/surface_geostrophic_northward_sea_water_velocity_assuming_sea_level_for_geoid/catalog.json",
+      "type": "application/json",
+      "title": "Variable: surface_geostrophic_northward_sea_water_velocity_assuming_sea_level_for_geoid"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/deepesdl/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:project": "deep-earth-system-data-lab",
+  "osc:type": "product",
+  "osc:status": "completed",
+  "osc:region": "global",
+  "osc:themes": [
+    "Land"
+  ],
+  "osc:variables": [
+    "sea_surface_wave_significant_height",
+    "chlorophyll_concentration",
+    "crs",
+    "sea_surface_height_above_sea_level",
+    "sea_surface_salinity",
+    "sea_surface_temperature",
+    "surface_geostrophic_eastward_sea_water_velocity",
+    "surface_geostrophic_eastward_sea_water_velocity_assuming_sea_level_for_geoid",
+    "surface_geostrophic_northward_sea_water_velocity",
+    "surface_geostrophic_northward_sea_water_velocity_assuming_sea_level_for_geoid"
+  ],
+  "osc:missions": [],
+  "cf:parameter": [
+    {
+      "name": "black-sea"
+    }
+  ],
+  "created": "2025-01-31T07:53:48.071237+00:00",
+  "updated": "2025-01-31T07:53:48.071237+00:00",
+  "title": "black-sea",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          26.0015,
+          39.001500000000156,
+          41.997499999999725,
+          47.9985
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-01-01T00:00:00Z",
+          "2017-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
