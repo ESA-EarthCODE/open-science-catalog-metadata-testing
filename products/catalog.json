@@ -1790,6 +1790,36 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./kj/collection.json",
+      "type": "application/json",
+      "title": "kjkj"
+    },
+    {
+      "rel": "child",
+      "href": "./sds/collection.json",
+      "type": "application/json",
+      "title": "sdsdsd"
+    },
+    {
+      "rel": "child",
+      "href": "./foo3/collection.json",
+      "type": "application/json",
+      "title": "Foo"
+    },
+    {
+      "rel": "child",
+      "href": "./sdssd/collection.json",
+      "type": "application/json",
+      "title": "sdsdsd"
+    },
+    {
+      "rel": "child",
+      "href": "./ssd/collection.json",
+      "type": "application/json",
+      "title": "sdsds"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
