@@ -40,27 +40,15 @@
       "title": "Variable: Sea Surface Height Anomaly (SSHA)"
     },
     {
-      "rel": "related",
-      "href": "../../eo-missions/goce/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: GOCE"
-    },
-    {
-      "rel": "related",
-      "href": "../../eo-missions/sentinel-1/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: Sentinel-1"
-    },
-    {
-      "rel": "related",
-      "href": "../../eo-missions/glonass/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: GLONASS"
-    },
-    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/absolute-sea-level-heights-baltics-sar-hsu/collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/amsr-e/catalog.json",
+      "type": "application/json",
+      "title": "AMSR-E"
     }
   ],
   "stac_extensions": [
@@ -86,9 +74,7 @@
     "sea-surface-height-anomaly-ssha"
   ],
   "osc:missions": [
-    "goce",
-    "sentinel-1",
-    "glonass"
+    "amsr-e"
   ],
   "updated": "2024-09-12T20:32:06.209108Z",
   "title": "SL-ABS: Absolute Sea Level Heights_Baltics_Multimission",
