@@ -46,9 +46,9 @@
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/alos/catalog.json",
+      "href": "../../eo-missions/ascat/catalog.json",
       "type": "application/json",
-      "title": "ALOS"
+      "title": "ASCAT"
     }
   ],
   "stac_extensions": [
@@ -74,7 +74,7 @@
     "sea-surface-height-anomaly-ssha"
   ],
   "osc:missions": [
-    "alos"
+    "ascat"
   ],
   "updated": "2024-09-12T20:32:06.209108Z",
   "title": "SL-ABS: Absolute Sea Level Heights_Baltics_Multimission",
