@@ -39,9 +39,9 @@
     },
     {
       "rel": "related",
-      "href": "../../themes/magnetosphere-ionosphere/catalog.json",
+      "href": "../../themes/solid-earth/catalog.json",
       "type": "application/json",
-      "title": "Magnetosphere Ionosphere"
+      "title": "Solid Earth"
     }
   ],
   "stac_extensions": [
@@ -56,7 +56,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "magnetosphere-ionosphere"
+          "id": "solid-earth"
         }
       ]
     }
