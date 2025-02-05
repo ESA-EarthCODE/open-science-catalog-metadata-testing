@@ -46,9 +46,9 @@
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/altika/catalog.json",
+      "href": "../../eo-missions/alos-4/catalog.json",
       "type": "application/json",
-      "title": "ALtiKa"
+      "title": "ALOS-4"
     }
   ],
   "stac_extensions": [
@@ -74,7 +74,7 @@
     "sea-surface-height-anomaly-ssha"
   ],
   "osc:missions": [
-    "altika"
+    "alos-4"
   ],
   "updated": "2024-09-12T20:32:06.209108Z",
   "title": "SL-ABS: Absolute Sea Level Heights_Baltics_Multimission",
