@@ -1,4 +1,32 @@
 {
   "id": "fdgg",
-  "title": "fbdbfbd"
+  "title": "fbdbfbd",
+  "stac_version": "1.0.0",
+  "type": "Collection",
+  "description": "",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        [
+          "",
+          ""
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "../../projects/assessing-cryosphere-biosphere-linkages-with-earth-observations-in-northern-high-latitudes-cryobiolinks/collection.json",
+      "type": "application/json",
+      "title": "CRYOBIOLINKS"
+    }
+  ],
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": "assessing-cryosphere-biosphere-linkages-with-earth-observations-in-northern-high-latitudes-cryobiolinks"
 }
