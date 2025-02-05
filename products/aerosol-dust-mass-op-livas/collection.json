@@ -45,15 +45,15 @@
       "title": "Variable: Aerosol Optical Depth/Thickness"
     },
     {
-      "rel": "related",
-      "href": "../../eo-missions/calipso/catalog.json",
-      "type": "application/json",
-      "title": "EO Mission: CALIPSO"
-    },
-    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/aerosol-dust-mass-op-livas/collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/alos-4/catalog.json",
+      "type": "application/json",
+      "title": "ALOS-4"
     }
   ],
   "stac_extensions": [
@@ -87,7 +87,7 @@
     "aerosol-optical-depth-thickness"
   ],
   "osc:missions": [
-    "calipso"
+    "alos-4"
   ],
   "updated": "2024-09-12T20:32:06.209108Z",
   "title": "Aerosol and Dust aerosol optical property profiles_Dust mass concentration profiles_cloud-relevant dust number concentrations profiles_Global_CALIPSO",
@@ -95,10 +95,10 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -180,
+          -90,
+          180,
+          90
         ]
       ]
     },
