@@ -54,6 +54,12 @@
       "title": "ALOS-2",
       "type": "application/json",
       "rel": "related"
+    },
+    {
+      "href": "../../themes/atmosphere/catalog.json",
+      "title": "Atmosphere",
+      "type": "application/json",
+      "rel": "related"
     }
   ],
   "stac_extensions": [
@@ -64,14 +70,7 @@
   "osc:name": "3D-Earth",
   "osc:status": "completed",
   "themes": [
-    {
-      "scheme": "https://github.com/stac-extensions/osc#theme",
-      "concepts": [
-        {
-          "id": "solid-earth"
-        }
-      ]
-    }
+    "atmosphere"
   ],
   "osc:type": "project",
   "contacts": [
