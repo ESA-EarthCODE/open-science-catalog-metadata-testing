@@ -39,9 +39,9 @@
     },
     {
       "rel": "related",
-      "href": "../../themes/land/catalog.json",
+      "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
-      "title": "Land"
+      "title": "Oceans"
     }
   ],
   "stac_extensions": [
@@ -56,7 +56,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "land"
+          "id": "oceans"
         }
       ]
     }
