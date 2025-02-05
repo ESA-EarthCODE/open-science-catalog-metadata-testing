@@ -39,9 +39,9 @@
     },
     {
       "rel": "related",
-      "href": "../../themes/solid-earth/catalog.json",
+      "href": "../../themes/land/catalog.json",
       "type": "application/json",
-      "title": "Solid Earth"
+      "title": "Land"
     }
   ],
   "stac_extensions": [
@@ -56,7 +56,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "solid-earth"
+          "id": "land"
         }
       ]
     }
