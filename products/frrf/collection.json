@@ -1,4 +1,32 @@
 {
   "id": "frrf",
-  "title": "frrff"
+  "title": "frrff",
+  "stac_version": "1.0.0",
+  "type": "Collection",
+  "description": "",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        [
+          "",
+          ""
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "../../projects/alplakes/collection.json",
+      "type": "application/json",
+      "title": "AlpLakes"
+    }
+  ],
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": "alplakes"
 }
