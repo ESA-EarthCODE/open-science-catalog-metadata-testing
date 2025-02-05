@@ -1,4 +1,32 @@
 {
   "id": "efeffe",
-  "title": "fefeef"
+  "title": "fefeef",
+  "stac_version": "1.0.0",
+  "type": "Collection",
+  "description": "",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        [
+          "",
+          ""
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "../../projects/anreo-retrieval-of-total-ozone-using-olci-s-3-over-antarctica/collection.json",
+      "type": "application/json",
+      "title": "AnREO"
+    }
+  ],
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": "anreo-retrieval-of-total-ozone-using-olci-s-3-over-antarctica"
 }
