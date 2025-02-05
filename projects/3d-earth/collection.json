@@ -48,6 +48,12 @@
       "href": "../../themes/solid-earth/catalog.json",
       "type": "application/json",
       "title": "Theme: Solid Earth"
+    },
+    {
+      "href": "../../eo-missions/alos-2/catalog.json",
+      "title": "ALOS-2",
+      "type": "application/json",
+      "rel": "related"
     }
   ],
   "stac_extensions": [
@@ -125,7 +131,9 @@
   ],
   "start_datetime": "2019-10-22T00:00:00Z",
   "end_datetime": "2020-12-11T23:59:59Z",
-  "osc:missions": [],
+  "osc:missions": [
+    "alos-2"
+  ],
   "updated": "2024-09-12T20:32:23.030110Z",
   "title": "3D-EARTH",
   "extent": {
