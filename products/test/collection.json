@@ -1,0 +1,39 @@
+{
+  "stac_version": "1.0.0",
+  "id": "test",
+  "type": "Collection",
+  "title": "Test",
+  "description": "hello",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "",
+          ""
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../projects/3d-earth/collection.json",
+      "title": "Project: 3D-EARTH",
+      "type": "application/json",
+      "rel": "related"
+    }
+  ],
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": "3d-earth"
+}

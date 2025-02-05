@@ -1,0 +1,66 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "",
+  "type": "Collection",
+  "title": "Test Project",
+  "description": "Description",
+  "keywords": [],
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -12.235333896872362,
+          20.999999999999986,
+          37.60676246830094,
+          59.999999999999986
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "",
+          ""
+        ]
+      ]
+    }
+  },
+  "providers": [],
+  "summaries": [],
+  "assets": {},
+  "links": [],
+  "osc:type": "project",
+  "osc:name": "Test Project",
+  "osc:status": "ongoing",
+  "osc:region": "Europe",
+  "osc:missions": [
+    "aeolus",
+    "alos-2"
+  ],
+  "osc:themes": [
+    "land",
+    "solid-earth"
+  ],
+  "contacts": [
+    {
+      "identifier": "",
+      "name": "",
+      "positionName": "",
+      "organization": "",
+      "logo": {
+        "href": "",
+        "title": "",
+        "type": "image/gif",
+        "rel": "icon"
+      },
+      "phones": [],
+      "emails": [],
+      "addresses": [],
+      "links": [],
+      "contactInstructions": [],
+      "roles": []
+    }
+  ]
+}
