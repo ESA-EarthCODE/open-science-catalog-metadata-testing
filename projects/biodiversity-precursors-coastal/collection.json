@@ -31,6 +31,12 @@
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/baltic-sea-level-baltic-seal/collection.json",
+      "type": "application/json",
+      "title": "Baltic Sea Level_Multimission"
     }
   ],
   "stac_extensions": [
