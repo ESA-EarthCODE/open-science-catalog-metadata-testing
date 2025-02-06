@@ -89,8 +89,8 @@
       "rel": "self"
     },
     {
-      "href": "../../themes/cryosphere/catalog.json",
-      "title": "Cryosphere",
+      "href": "../../themes/oceans/catalog.json",
+      "title": "Oceans",
       "type": "application/json",
       "rel": "related"
     }
@@ -109,7 +109,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "cryosphere"
+          "id": "oceans"
         }
       ]
     }
