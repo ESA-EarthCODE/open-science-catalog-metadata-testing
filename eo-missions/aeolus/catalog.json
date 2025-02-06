@@ -51,6 +51,12 @@
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/eo-missions/aeolus/catalog.json",
       "type": "application/json",
       "rel": "self"
+    },
+    {
+      "rel": "child",
+      "href": "../../projects/enum-test/collection.json",
+      "type": "application/json",
+      "title": "Test"
     }
   ],
   "updated": "2024-08-27T17:27:42.171831Z",
