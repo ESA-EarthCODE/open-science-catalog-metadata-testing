@@ -57,9 +57,9 @@
     },
     {
       "rel": "related",
-      "href": "../../themes/magnetosphere-ionosphere/catalog.json",
+      "href": "../../themes/cryosphere/catalog.json",
       "type": "application/json",
-      "title": "Magnetosphere Ionosphere"
+      "title": "Cryosphere"
     }
   ],
   "stac_extensions": [
@@ -87,7 +87,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "magnetosphere-ionosphere"
+          "id": "cryosphere"
         }
       ]
     }
