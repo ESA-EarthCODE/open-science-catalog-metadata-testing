@@ -3,10 +3,10 @@
   "stac_extensions": [],
   "id": "",
   "type": "Collection",
-  "title": "",
-  "description": "",
+  "title": "Test",
+  "description": "Description",
   "keywords": [],
-  "license": "various",
+  "license": "AAL",
   "extent": {
     "spatial": {
       "bbox": []
@@ -23,13 +23,58 @@
   "providers": [],
   "summaries": [],
   "assets": {},
-  "links": [],
+  "links": [
+    {
+      "href": "../../themes/atmosphere/catalog.json",
+      "title": "Atmosphere",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "href": "../../themes/cryosphere/catalog.json",
+      "title": "Cryosphere",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "href": "../../eo-missions/aeolus/catalog.json",
+      "title": "AEOLUS",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "href": "../../eo-missions/alos-2/catalog.json",
+      "title": "ALOS-2",
+      "type": "application/json",
+      "rel": "related"
+    }
+  ],
   "osc:type": "project",
-  "osc:name": "",
+  "osc:name": "Test",
   "osc:status": "planned",
-  "osc:region": "",
-  "osc:missions": [],
-  "themes": [],
+  "osc:region": "Test",
+  "osc:missions": [
+    "aeolus",
+    "alos-2"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    },
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ],
   "contacts": [
     {
       "identifier": "",
