@@ -48,6 +48,12 @@
       "href": "../../products/my-new-product/collection.json",
       "type": "application/json",
       "title": "My New"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/test-enum/collection.json",
+      "type": "application/json",
+      "title": "Test Enum"
     }
   ],
   "stac_extensions": [
