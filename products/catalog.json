@@ -1730,6 +1730,12 @@
       "href": "./new-product/collection.json",
       "type": "application/json",
       "title": "New Product"
+    },
+    {
+      "rel": "child",
+      "href": "./test-enum/collection.json",
+      "type": "application/json",
+      "title": "Test Enum"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
