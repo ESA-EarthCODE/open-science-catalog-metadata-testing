@@ -1,4 +1,32 @@
 {
   "id": "my-new-product",
-  "title": "My New"
+  "title": "My New",
+  "stac_version": "1.0.0",
+  "type": "Collection",
+  "description": "",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        [
+          "",
+          ""
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "../../projects/3d-earth/collection.json",
+      "type": "application/json",
+      "title": "3D-EARTH"
+    }
+  ],
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": "3d-earth"
 }
