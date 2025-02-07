@@ -1736,6 +1736,12 @@
       "href": "./test-enum/collection.json",
       "type": "application/json",
       "title": "Test Enum"
+    },
+    {
+      "rel": "child",
+      "href": "./gsdfgsf/collection.json",
+      "type": "application/json",
+      "title": "Test Title"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
