@@ -1,4 +1,25 @@
 {
   "id": "sws",
-  "title": "swwswsws"
+  "title": "swwswsws",
+  "stac_version": "1.0.0",
+  "type": "Collection",
+  "description": "",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        [
+          "",
+          ""
+        ]
+      ]
+    }
+  },
+  "links": [],
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": ""
 }
