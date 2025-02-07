@@ -22,12 +22,6 @@
     },
     {
       "rel": "child",
-      "href": "../../products/baltic-sea-level-baltic-seal/collection.json",
-      "type": "application/json",
-      "title": "Baltic Sea Level_Multimission"
-    },
-    {
-      "rel": "child",
       "href": "../../products/earth-energy-imballance-baltic-seal/collection.json",
       "type": "application/json",
       "title": "Earth Energy Imballance (EEI)_GRACE/GRACE-FO"

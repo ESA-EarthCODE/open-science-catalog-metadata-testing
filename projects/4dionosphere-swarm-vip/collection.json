@@ -39,9 +39,15 @@
     },
     {
       "rel": "related",
-      "href": "../../themes/magnetosphere-ionosphere/catalog.json",
+      "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
-      "title": "Theme: Magnetosphere Ionosphere"
+      "title": "Oceans"
+    },
+    {
+      "href": "../../eo-missions/alos-4/catalog.json",
+      "title": "ALOS-4",
+      "type": "application/json",
+      "rel": "related"
     }
   ],
   "stac_extensions": [
@@ -56,7 +62,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "magnetosphere-ionosphere"
+          "id": "oceans"
         }
       ]
     }
@@ -101,7 +107,9 @@
   ],
   "start_datetime": "2020-07-04T00:00:00Z",
   "end_datetime": "2022-04-16T23:59:59Z",
-  "osc:missions": [],
+  "osc:missions": [
+    "alos-4"
+  ],
   "updated": "2024-09-12T20:32:22.984110Z",
   "title": "SWARM VIP",
   "extent": {
