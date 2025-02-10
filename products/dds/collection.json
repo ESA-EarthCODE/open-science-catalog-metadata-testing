@@ -18,15 +18,8 @@
       ]
     }
   },
-  "links": [
-    {
-      "href": "../../projects/aeolus-innovation-cdom-proxy-retrieval-from-aeolus-observations-color/collection.json",
-      "title": "AEOLUS+inno - COLOR",
-      "type": "application/json",
-      "rel": "related"
-    }
-  ],
+  "links": [],
   "osc:type": "product",
   "osc:status": "planned",
-  "osc:project": "aeolus-innovation-cdom-proxy-retrieval-from-aeolus-observations-color"
+  "osc:project": ""
 }
