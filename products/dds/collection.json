@@ -20,13 +20,13 @@
   },
   "links": [
     {
-      "href": "../../projects/albiom-altimetry-for-biomass/collection.json",
-      "title": "ALBIOM",
+      "href": "../../projects/aeolus-innovation-cdom-proxy-retrieval-from-aeolus-observations-color/collection.json",
+      "title": "AEOLUS+inno - COLOR",
       "type": "application/json",
       "rel": "related"
     }
   ],
   "osc:type": "product",
   "osc:status": "planned",
-  "osc:project": "albiom-altimetry-for-biomass"
+  "osc:project": "aeolus-innovation-cdom-proxy-retrieval-from-aeolus-observations-color"
 }
