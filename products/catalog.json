@@ -1820,6 +1820,12 @@
       "href": "./dssd/collection.json",
       "type": "application/json",
       "title": "sdsdds"
+    },
+    {
+      "rel": "child",
+      "href": "./dds/collection.json",
+      "type": "application/json",
+      "title": "sdsdsdsd"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
