@@ -33,27 +33,27 @@
     },
     {
       "rel": "related",
-      "href": "../../projects/mediterranean-sea-regional-initiative-land-based-pollution/collection.json",
+      "href": "../../projects/moheacan-monitoring-ocean-heat-content-and-earth-energy-imbalance-from-space/collection.json",
       "type": "application/json",
-      "title": "MedEOS"
+      "title": "MOHeaCAN"
     },
     {
       "rel": "related",
-      "href": "../../eo-missions/alos-4/catalog.json",
+      "href": "../../eo-missions/altika/catalog.json",
       "type": "application/json",
-      "title": "ALOS-4"
+      "title": "ALtiKa"
     },
     {
       "rel": "related",
-      "href": "../../themes/land/catalog.json",
+      "href": "../../themes/solid-earth/catalog.json",
       "type": "application/json",
-      "title": "Land"
+      "title": "Solid Earth"
     },
     {
       "rel": "related",
-      "href": "../../variables/above-ground-biomass/catalog.json",
+      "href": "../../variables/14-co-number-concentration/catalog.json",
       "type": "application/json",
-      "title": "Above-Ground Biomass"
+      "title": "(14)CO Number Concentration"
     }
   ],
   "stac_extensions": [
@@ -61,7 +61,7 @@
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
     "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
   ],
-  "osc:project": "mediterranean-sea-regional-initiative-land-based-pollution",
+  "osc:project": "moheacan-monitoring-ocean-heat-content-and-earth-energy-imbalance-from-space",
   "osc:status": "ongoing",
   "osc:region": "Global",
   "osc:type": "product",
@@ -78,16 +78,16 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "land"
+          "id": "solid-earth"
         }
       ]
     }
   ],
   "osc:variables": [
-    "above-ground-biomass"
+    "14-co-number-concentration"
   ],
   "osc:missions": [
-    "alos-4"
+    "altika"
   ],
   "updated": "2024-09-12T20:32:06.209108Z",
   "title": "Aerosol (and dust aerosol) optical property profiles_Pure Dust concentration profiles_cloud-relevant dust number concentrations profiles_Global_CALIPSO",
