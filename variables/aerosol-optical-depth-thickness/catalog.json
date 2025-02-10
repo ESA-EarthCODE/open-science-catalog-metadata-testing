@@ -30,12 +30,6 @@
     },
     {
       "rel": "child",
-      "href": "../../products/aerosol-pure-dust-op-livas/collection.json",
-      "type": "application/json",
-      "title": "Aerosol (and dust aerosol) optical property profiles_Pure Dust concentration profiles_cloud-relevant dust number concentrations profiles_Global_CALIPSO"
-    },
-    {
-      "rel": "child",
       "href": "../../products/clima-aerosol-od-all-livas/collection.json",
       "type": "application/json",
       "title": "Climatology of aerosol optical depth, for all aerosols and separately for the CALIPSO aerosol types: pure dust, marine, smoke and continental. Boundaries of dust layers_Global_CALIPSO"
