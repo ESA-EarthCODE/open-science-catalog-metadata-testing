@@ -18,8 +18,15 @@
       ]
     }
   },
-  "links": [],
+  "links": [
+    {
+      "href": "../../projects/arcticsummit-arctic-summer-ice-thickness/collection.json",
+      "title": "(LPF) ArcticSummIT",
+      "type": "application/json",
+      "rel": "related"
+    }
+  ],
   "osc:type": "product",
   "osc:status": "planned",
-  "osc:project": ""
+  "osc:project": "arcticsummit-arctic-summer-ice-thickness"
 }
