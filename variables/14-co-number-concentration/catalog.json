@@ -32,6 +32,12 @@
       "href": "../../themes/atmosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/aerosol-pure-dust-op-livas/collection.json",
+      "type": "application/json",
+      "title": "Aerosol (and dust aerosol) optical property profiles_Pure Dust concentration profiles_cloud-relevant dust number concentrations profiles_Global_CALIPSO"
     }
   ],
   "stac_extensions": [
