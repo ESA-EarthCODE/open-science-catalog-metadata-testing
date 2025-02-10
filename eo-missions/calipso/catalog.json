@@ -30,12 +30,6 @@
     },
     {
       "rel": "child",
-      "href": "../../products/aerosol-pure-dust-op-livas/collection.json",
-      "type": "application/json",
-      "title": "Aerosol (and dust aerosol) optical property profiles_Pure Dust concentration profiles_cloud-relevant dust number concentrations profiles_Global_CALIPSO"
-    },
-    {
-      "rel": "child",
       "href": "../../products/cliima-cloud-od-livas/collection.json",
       "type": "application/json",
       "title": "Climatology of cloud optical depth_Global_CALIPSO_EARTHCARE"
