@@ -18,11 +18,15 @@
       ]
     }
   },
-  "links": [],
+  "links": [
+    {
+      "href": "../../projects/albiom-altimetry-for-biomass/collection.json",
+      "title": "ALBIOM",
+      "type": "application/json",
+      "rel": "related"
+    }
+  ],
   "osc:type": "product",
   "osc:status": "planned",
-  "osc:project": {
-    "value": "",
-    "text": "Select a value"
-  }
+  "osc:project": "albiom-altimetry-for-biomass"
 }
