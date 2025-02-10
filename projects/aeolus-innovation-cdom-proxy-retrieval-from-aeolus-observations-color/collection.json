@@ -60,6 +60,12 @@
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/dds/collection.json",
+      "type": "application/json",
+      "title": "sdsdsdsd "
     }
   ],
   "stac_extensions": [
