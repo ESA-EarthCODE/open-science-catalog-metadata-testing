@@ -1796,6 +1796,12 @@
       "href": "./sdsdd/collection.json",
       "type": "application/json",
       "title": "sddssdds"
+    },
+    {
+      "rel": "child",
+      "href": "./dedd/collection.json",
+      "type": "application/json",
+      "title": "fddfdf"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
