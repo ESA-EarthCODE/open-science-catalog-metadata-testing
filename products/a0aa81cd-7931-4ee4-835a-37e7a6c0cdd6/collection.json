@@ -1,4 +1,28 @@
 {
   "id": "a0aa81cd-7931-4ee4-835a-37e7a6c0cdd6",
-  "title": "thhtthghtththth"
+  "title": "thhtthghtthththyu uyu yu",
+  "stac_version": "1.0.0",
+  "type": "Collection",
+  "description": "",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        [
+          "",
+          ""
+        ]
+      ]
+    }
+  },
+  "links": [],
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": {
+    "value": "",
+    "text": "Select a value"
+  }
 }
