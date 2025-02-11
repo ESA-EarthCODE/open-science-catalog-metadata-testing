@@ -1,4 +1,28 @@
 {
   "id": "917d3038-5775-4a46-8122-95cedd3571bd",
-  "title": "rtrtrtrttr"
+  "title": "rtrtrtrttr",
+  "stac_version": "1.0.0",
+  "type": "Collection",
+  "description": "",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        [
+          "",
+          ""
+        ]
+      ]
+    }
+  },
+  "links": [],
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": {
+    "value": "",
+    "text": "Select a value"
+  }
 }
