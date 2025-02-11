@@ -1,4 +1,28 @@
 {
   "id": "d0755f5b-cfbc-4de2-836e-2f87583a0a30",
-  "title": "grgrrgrg"
+  "title": "Hellow ewe",
+  "stac_version": "1.0.0",
+  "type": "Collection",
+  "description": "",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        [
+          "",
+          ""
+        ]
+      ]
+    }
+  },
+  "links": [],
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": {
+    "value": "",
+    "text": "Select a value"
+  }
 }
