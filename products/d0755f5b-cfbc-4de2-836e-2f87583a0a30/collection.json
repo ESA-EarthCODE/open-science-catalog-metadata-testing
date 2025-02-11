@@ -18,11 +18,15 @@
       ]
     }
   },
-  "links": [],
+  "links": [
+    {
+      "href": "../../projects/4d-greenland/collection.json",
+      "title": "4D-Greenland",
+      "type": "application/json",
+      "rel": "related"
+    }
+  ],
   "osc:type": "product",
   "osc:status": "planned",
-  "osc:project": {
-    "value": "",
-    "text": "Select a value"
-  }
+  "osc:project": "4d-greenland"
 }
