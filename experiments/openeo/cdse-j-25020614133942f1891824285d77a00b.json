@@ -1,0 +1,74 @@
+{
+  "costs": 31,
+  "created": "2025-02-06T14:13:39Z",
+  "id": "cdse-j-25020614133942f1891824285d77a00b",
+  "process": {
+    "process_graph": {
+      "saveresult1": {
+        "arguments": {
+          "data": {
+            "from_node": "worldcerealcropextent1"
+          },
+          "format": "GTiff",
+          "options": {}
+        },
+        "process_id": "save_result",
+        "result": true
+      },
+      "worldcerealcropextent1": {
+        "arguments": {
+          "spatial_extent": {
+            "east": 5.3071194812791225,
+            "north": 51.300008112986745,
+            "south": 51.22217309744428,
+            "west": 5.1116880324302345
+          },
+          "temporal_extent": [
+            "2020-05-01",
+            "2021-04-30"
+          ]
+        },
+        "namespace": "https://raw.githubusercontent.com/ESA-APEx/apex_algorithms/refs/heads/main/openeo_udp/worldcereal_crop_extent.json",
+        "process_id": "worldcereal_crop_extent"
+      }
+    }
+  },
+  "progress": 100,
+  "status": "finished",
+  "title": "WorldCereal Crop Extent",
+  "updated": "2025-02-06T14:30:24Z",
+  "usage": {
+    "cpu": {
+      "unit": "cpu-seconds",
+      "value": 12034
+    },
+    "duration": {
+      "unit": "seconds",
+      "value": 947
+    },
+    "input_pixel": {
+      "unit": "mega-pixel",
+      "value": 780.6158151626587
+    },
+    "max_executor_memory": {
+      "unit": "gb",
+      "value": 3.2639541625976562
+    },
+    "memory": {
+      "unit": "mb-seconds",
+      "value": 62105523
+    },
+    "network_received": {
+      "unit": "b",
+      "value": 37327142138
+    },
+    "orfeo_backscatter_execution_counter": {
+      "unit": "count",
+      "value": 436
+    },
+    "orfeo_backscatter_soft_errors": {
+      "unit": "count",
+      "value": 0
+    }
+  }
+}
