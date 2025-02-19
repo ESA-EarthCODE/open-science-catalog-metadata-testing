@@ -1,0 +1,90 @@
+{
+  "assets": {},
+  "description": "Results for batch job cdse-j-241209296c304e40aab094e29220d448",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "id": "apex_-_demo_-_gran_canaria",
+  "license": "proprietary",
+  "links": [
+    {
+      "href": "/eodata/Sentinel-2/MSI/L2A_N0500/2019/08/19/S2A_MSIL2A_20190819T115221_N0500_R123_T28RDR_20230507T090239.SAFE",
+      "rel": "derived_from",
+      "title": "Derived from /eodata/Sentinel-2/MSI/L2A_N0500/2019/08/19/S2A_MSIL2A_20190819T115221_N0500_R123_T28RDR_20230507T090239.SAFE",
+      "type": "application/json"
+    },
+    {
+      "href": "/eodata/Sentinel-2/MSI/L2A_N0500/2019/08/19/S2A_MSIL2A_20190819T115221_N0500_R123_T28RCS_20230507T090239.SAFE",
+      "rel": "derived_from",
+      "title": "Derived from /eodata/Sentinel-2/MSI/L2A_N0500/2019/08/19/S2A_MSIL2A_20190819T115221_N0500_R123_T28RCS_20230507T090239.SAFE",
+      "type": "application/json"
+    },
+    {
+      "href": "/eodata/Sentinel-2/MSI/L2A_N0500/2019/08/19/S2A_MSIL2A_20190819T115221_N0500_R123_T28RCR_20230507T090239.SAFE",
+      "rel": "derived_from",
+      "title": "Derived from /eodata/Sentinel-2/MSI/L2A_N0500/2019/08/19/S2A_MSIL2A_20190819T115221_N0500_R123_T28RCR_20230507T090239.SAFE",
+      "type": "application/json"
+    },
+    {
+      "href": "/eodata/Sentinel-2/MSI/L2A_N0500/2019/08/19/S2A_MSIL2A_20190819T115221_N0500_R123_T28RDS_20230507T090239.SAFE",
+      "rel": "derived_from",
+      "title": "Derived from /eodata/Sentinel-2/MSI/L2A_N0500/2019/08/19/S2A_MSIL2A_20190819T115221_N0500_R123_T28RDS_20230507T090239.SAFE",
+      "type": "application/json"
+    },
+    {
+      "href": "https://openeo.dataspace.copernicus.eu/openeo/1.1/jobs/j-241209296c304e40aab094e29220d448/results/NjM5MTg1MWYtOTA0Mi00MTA4LThiMmEtM2RkMmU4YTlkZDBi/5011cad159bc74e00b4035fbcc3494d9?expires=1740583711",
+      "rel": "via",
+      "type": "application/json"
+    },
+    {
+      "href": "http://ceos.org/ard/files/PFS/SR/v5.0/CARD4L_Product_Family_Specification_Surface_Reflectance-v5.0.pdf",
+      "rel": "card4l-document",
+      "type": "application/pdf"
+    },
+    {
+      "href": "https://openeofed.dataspace.copernicus.eu/openeo/jobs/cdse-j-241209296c304e40aab094e29220d448/results",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json"
+  ],
+  "stac_version": "1.0.0",
+  "title": "APEx - Demo - Gran Canaria",
+  "type": "Collection",
+  "osc:missions": [],
+  "osc:project": "aeolus-innovation-expro-improving-dust-monitoring-and-forecasting-through-aeolus-wind-data-assimilation-newton",
+  "osc:status": "completed",
+  "osc:type": "product",
+  "osc:variables": []
+}
