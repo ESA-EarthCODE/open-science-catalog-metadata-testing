@@ -1,0 +1,90 @@
+{
+  "assets": {},
+  "description": "Results for batch job cdse-j-2410256eb2c542dfaf5c90085ddba526",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "id": "evi",
+  "license": "proprietary",
+  "links": [
+    {
+      "href": "/eodata/Sentinel-2/MSI/L2A/2024/10/11/S2B_MSIL2A_20241011T104859_N0511_R051_T31UFS_20241011T133022.SAFE",
+      "rel": "derived_from",
+      "title": "Derived from /eodata/Sentinel-2/MSI/L2A/2024/10/11/S2B_MSIL2A_20241011T104859_N0511_R051_T31UFS_20241011T133022.SAFE",
+      "type": "application/json"
+    },
+    {
+      "href": "/eodata/Sentinel-2/MSI/L2A/2024/10/16/S2A_MSIL2A_20241016T105031_N0511_R051_T31UFS_20241016T151206.SAFE",
+      "rel": "derived_from",
+      "title": "Derived from /eodata/Sentinel-2/MSI/L2A/2024/10/16/S2A_MSIL2A_20241016T105031_N0511_R051_T31UFS_20241016T151206.SAFE",
+      "type": "application/json"
+    },
+    {
+      "href": "/eodata/Sentinel-2/MSI/L2A/2024/10/13/S2A_MSIL2A_20241013T104001_N0511_R008_T31UFS_20241013T151408.SAFE",
+      "rel": "derived_from",
+      "title": "Derived from /eodata/Sentinel-2/MSI/L2A/2024/10/13/S2A_MSIL2A_20241013T104001_N0511_R008_T31UFS_20241013T151408.SAFE",
+      "type": "application/json"
+    },
+    {
+      "href": "/eodata/Sentinel-2/MSI/L2A/2024/10/18/S2B_MSIL2A_20241018T103949_N0511_R008_T31UFS_20241018T131852.SAFE",
+      "rel": "derived_from",
+      "title": "Derived from /eodata/Sentinel-2/MSI/L2A/2024/10/18/S2B_MSIL2A_20241018T103949_N0511_R008_T31UFS_20241018T131852.SAFE",
+      "type": "application/json"
+    },
+    {
+      "href": "https://openeo.dataspace.copernicus.eu/openeo/1.1/jobs/j-2410256eb2c542dfaf5c90085ddba526/results/NjM5MTg1MWYtOTA0Mi00MTA4LThiMmEtM2RkMmU4YTlkZDBi/ecd5030d3fa53b3dc404fd7f95dd263a?expires=1740565205",
+      "rel": "via",
+      "type": "application/json"
+    },
+    {
+      "href": "http://ceos.org/ard/files/PFS/SR/v5.0/CARD4L_Product_Family_Specification_Surface_Reflectance-v5.0.pdf",
+      "rel": "card4l-document",
+      "type": "application/pdf"
+    },
+    {
+      "href": "https://openeofed.dataspace.copernicus.eu/openeo/jobs/cdse-j-2410256eb2c542dfaf5c90085ddba526/results",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json"
+  ],
+  "stac_version": "1.0.0",
+  "title": "EVI",
+  "type": "Collection",
+  "osc:missions": [],
+  "osc:project": "aeolus-innovation-cdom-proxy-retrieval-from-aeolus-observations-color",
+  "osc:status": "completed",
+  "osc:type": "product",
+  "osc:variables": []
+}
