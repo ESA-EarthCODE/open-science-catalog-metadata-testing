@@ -48,6 +48,12 @@
       "href": "../../themes/solid-earth/catalog.json",
       "type": "application/json",
       "title": "Theme: Solid Earth"
+    },
+    {
+      "rel": "child",
+      "href": "./worldcereal_crop_extent/collection.json",
+      "type": "application/json",
+      "title": "WorldCereal Crop Extent"
     }
   ],
   "stac_extensions": [
