@@ -3,23 +3,32 @@
   "title": "demo",
   "stac_version": "1.0.0",
   "type": "Collection",
-  "description": "descriopt",
+  "description": "description",
   "license": "various",
   "extent": {
     "spatial": {
       "bbox": {}
     },
     "temporal": {
-      "interval": {
-        "0": {
-          "0": "",
-          "1": ""
+      "interval": [
+        {
+          "0": {
+            "0": "",
+            "1": ""
+          }
         }
-      }
+      ]
     }
   },
-  "links": {},
+  "links": [
+    {
+      "href": "",
+      "title": "",
+      "type": "",
+      "rel": ""
+    }
+  ],
   "osc:type": "product",
-  "osc:status": "planned",
+  "osc:status": "ongoing",
   "osc:project": ""
 }
