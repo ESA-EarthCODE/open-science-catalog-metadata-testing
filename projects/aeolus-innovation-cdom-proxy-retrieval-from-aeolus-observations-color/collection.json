@@ -60,6 +60,12 @@
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "./evi/collection.json",
+      "type": "application/json",
+      "title": "EVI"
     }
   ],
   "stac_extensions": [
