@@ -1,4 +1,45 @@
 {
   "id": "sos-demo",
-  "title": "SoS Demo"
+  "title": "SoS Demo",
+  "stac_version": "1.0.0",
+  "type": "Collection",
+  "description": "test",
+  "license": "CC-BY-4.0",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -4.344415534032549,
+          32.17221493357083,
+          -1.9960717725660686,
+          39.45205479452055
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-29T00:00:00Z",
+          null
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "",
+      "title": "",
+      "type": "",
+      "rel": ""
+    },
+    {
+      "href": "../../projects/4d-antarctica/collection.json",
+      "title": "4D-ANTARCTICA",
+      "type": "application/json",
+      "rel": "related"
+    }
+  ],
+  "osc:type": "product",
+  "osc:status": "ongoing",
+  "osc:project": "4d-antarctica"
 }
