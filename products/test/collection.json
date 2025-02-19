@@ -1,4 +1,25 @@
 {
   "id": "test",
-  "title": "test"
+  "title": "test",
+  "stac_version": "1.0.0",
+  "type": "Collection",
+  "description": "test",
+  "license": "Afmparse",
+  "extent": {
+    "spatial": {
+      "bbox": {}
+    },
+    "temporal": {
+      "interval": {
+        "0": {
+          "0": "",
+          "1": ""
+        }
+      }
+    }
+  },
+  "links": {},
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": "test"
 }
