@@ -36,6 +36,12 @@
       "href": "../../themes/atmosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "child",
+      "href": "./apex_-_demo_-_gran_canaria/collection.json",
+      "type": "application/json",
+      "title": "APEx - Demo - Gran Canaria"
     }
   ],
   "stac_extensions": [
