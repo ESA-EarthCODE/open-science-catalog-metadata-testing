@@ -48,6 +48,12 @@
       "href": "../../themes/solid-earth/catalog.json",
       "type": "application/json",
       "title": "Theme: Solid Earth"
+    },
+    {
+      "rel": "child",
+      "href": "./apex_-_demo_-_best_available_pixel/collection.json",
+      "type": "application/json",
+      "title": "APEx - Demo - Best Available Pixel"
     }
   ],
   "stac_extensions": [
