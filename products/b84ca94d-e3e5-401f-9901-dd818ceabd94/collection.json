@@ -1,4 +1,32 @@
 {
   "id": "b84ca94d-e3e5-401f-9901-dd818ceabd94",
-  "title": "Test Product"
+  "title": "Test Product",
+  "stac_version": "1.0.0",
+  "type": "Collection",
+  "description": "Hello World!",
+  "license": "AFL-3.0",
+  "extent": {
+    "spatial": {
+      "bbox": null
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-18T00:00:00Z",
+          "2025-02-21T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../projects/4d-greenland/collection.json",
+      "title": "4D-Greenland",
+      "type": "application/json",
+      "rel": "related"
+    }
+  ],
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": "4d-greenland"
 }
