@@ -1,4 +1,29 @@
 {
   "id": "b84ca94d-e3e5-401f-9901-dd818ceabd94",
-  "title": "Demo Product"
+  "title": "Demo Product",
+  "stac_version": "1.0.0",
+  "type": "Collection",
+  "description": "Demo description",
+  "license": "ADSL",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        null
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "../../projects/4d-greenland/collection.json",
+      "type": "application/json",
+      "title": "4D-Greenland"
+    }
+  ],
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": "4d-greenland"
 }
