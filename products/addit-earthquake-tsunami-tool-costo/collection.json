@@ -54,6 +54,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/addit-earthquake-tsunami-tool-costo/collection.json",
       "type": "application/json"
+    },
+    {
+      "href": "../../eo-missions/meris/catalog.json",
+      "title": "MERIS",
+      "type": "application/json",
+      "rel": "related"
     }
   ],
   "stac_extensions": [
@@ -77,9 +83,7 @@
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
-        {
-          "id": "magnetosphere-ionosphere"
-        }
+        "magnetosphere-ionosphere"
       ]
     }
   ],
@@ -87,7 +91,7 @@
     "ionosphere-magnetosphere-dynamics"
   ],
   "osc:missions": [
-    "swarm"
+    "meris"
   ],
   "updated": "2024-09-12T20:32:06.209108Z",
   "title": "ADDTID: An Alternative Tool for Studying Earthquake/Tsunami Signatures in the Ionosphere_Japan_SWARM",
@@ -115,5 +119,8 @@
   "keywords": [
     "Sun-Earth Interactions",
     "Ionosphere/Magnetosphere Dynamics"
-  ]
+  ],
+  "providers": [],
+  "summaries": [],
+  "assets": {}
 }
