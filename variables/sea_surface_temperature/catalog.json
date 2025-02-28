@@ -1,0 +1,46 @@
+{
+  "type": "Catalog",
+  "id": "sea_surface_temperature",
+  "stac_version": "1.0.0",
+  "description": "Sea Surface Temperature",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/black-sea/collection.json",
+      "type": "application/json",
+      "title": "black-sea"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/sea_surface_temperature/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "updated": "2025-02-28T14:22:20.948780+00:00",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Land"
+        }
+      ]
+    }
+  ],
+  "title": "sea_surface_temperature"
+}
