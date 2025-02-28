@@ -1,0 +1,48 @@
+{
+  "id": "",
+  "type": "Feature",
+  "time": null,
+  "geometry": null,
+  "conformsTo": [],
+  "properties": {
+    "type": "dataset",
+    "created": "",
+    "osc:type": "workflow",
+    "osc:status": "planned",
+    "osc:project": "",
+    "osc:missions": [],
+    "themes": [
+      {
+        "concepts": [
+          {
+            "id": "",
+            "title": "",
+            "description": "",
+            "url": ""
+          }
+        ],
+        "scheme": ""
+      }
+    ],
+    "osc:variables": [],
+    "updated": "",
+    "title": "",
+    "description": "",
+    "keywords": [],
+    "language": {
+      "code": "",
+      "name": "",
+      "alternate": "",
+      "dir": "ltr"
+    },
+    "languages": [],
+    "resourceLanguages": [],
+    "externalIds": [],
+    "formats": [],
+    "contacts": [],
+    "license": "",
+    "rights": ""
+  },
+  "links": [],
+  "linkTemplates": []
+}
