@@ -1,0 +1,46 @@
+{
+  "type": "Catalog",
+  "id": "surface_geostrophic_eastward_sea_water_velocity_assuming_sea_level_for_geoid",
+  "stac_version": "1.1.0",
+  "description": "Geostrophic Velocity Anomalies: Zonal Component",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/black-sea/collection.json",
+      "type": "application/json",
+      "title": "black-sea"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/surface_geostrophic_eastward_sea_water_velocity_assuming_sea_level_for_geoid/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "updated": "2025-02-28T10:54:45.093082+00:00",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Land"
+        }
+      ]
+    }
+  ],
+  "title": "surface_geostrophic_eastward_sea_water_velocity_assuming_sea_level_for_geoid"
+}
