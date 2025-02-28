@@ -1,8 +1,8 @@
 {
   "type": "Catalog",
-  "id": "evaporation",
+  "id": "snow_water_equivalent",
   "stac_version": "1.0.0",
-  "description": "Evaporation",
+  "description": "Snow Water Equivalent",
   "links": [
     {
       "rel": "root",
@@ -24,14 +24,14 @@
     },
     {
       "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/evaporation/catalog.json",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/snow_water_equivalent/catalog.json",
       "type": "application/json"
     }
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
   ],
-  "updated": "2025-02-28T14:40:20.741903+00:00",
+  "updated": "2025-02-28T14:40:20.860800+00:00",
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",
@@ -45,5 +45,5 @@
       ]
     }
   ],
-  "title": "evaporation"
+  "title": "snow_water_equivalent"
 }
