@@ -48,6 +48,12 @@
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",
       "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "../../experiment/worldcereal_crop_extent/record.json",
+      "type": "application/json",
+      "title": "WorldCereal Crop Extent"
     }
   ],
   "stac_extensions": [
