@@ -1,0 +1,79 @@
+{
+  "id": "0012aa16-cbc4-4c0c-b222-c120a9ffa446",
+  "title": "grgrggrgrgr345445gr",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "type": "Collection",
+  "description": "tgbftbththr",
+  "keywords": [],
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        [
+          "",
+          ""
+        ]
+      ]
+    }
+  },
+  "providers": [],
+  "summaries": [],
+  "assets": {},
+  "links": [
+    {
+      "href": "../../projects/4d-antarctica/collection.json",
+      "title": "4D-ANTARCTICA",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "href": "../../themes/land/catalog.json",
+      "title": "Land",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "href": "../../variables/14-ch4-delta/catalog.json",
+      "title": "(14)CH4 Delta",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/alos-4/catalog.json",
+      "type": "application/json",
+      "title": "ALOS-4"
+    }
+  ],
+  "created": "",
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": "4d-antarctica",
+  "osc:region": "",
+  "osc:missions": [
+    "alos-4"
+  ],
+  "themes": [
+    {
+      "scheme": "OSC:SCHEME:THEMES",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [
+    "14-ch4-delta"
+  ],
+  "cf:parameter": [
+    {
+      "name": "",
+      "unit": ""
+    }
+  ]
+}
