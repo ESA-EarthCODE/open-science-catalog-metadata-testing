@@ -1,0 +1,45 @@
+{
+  "id": "cdse_federation_-_evi_timeseries_experiment_-_example_-_belgium",
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "geometry": null,
+  "properties": {
+    "created": "2025-03-04T10:28:48.232Z",
+    "updated": "2025-03-04T10:28:48.233Z",
+    "type": "experiment",
+    "title": "CDSE Federation - EVI Timeseries Experiment - Example - Belgium - Experiment",
+    "description": "Experiment of CDSE Federation - EVI Timeseries Experiment - Example - Belgium",
+    "license": "",
+    "osc:workflow": "cdse_federation_-_evi_timeseries_experiment_-_example_-_belgium",
+    "osc:product": "cdse_federation_-_evi_timeseries_experiment_-_example_-_belgium",
+    "version": "2"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Experiments"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/cdse_federation_-_evi_timeseries_experiment_-_example_-_belgium/record.json",
+      "type": "application/json",
+      "title": "Workflow: cdse_federation_-_evi_timeseries_experiment_-_example_-_belgium"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/cdse_federation_-_evi_timeseries_experiment_-_example_-_belgium/collection.json",
+      "type": "application/json",
+      "title": "Product: cdse_federation_-_evi_timeseries_experiment_-_example_-_belgium"
+    }
+  ]
+}
