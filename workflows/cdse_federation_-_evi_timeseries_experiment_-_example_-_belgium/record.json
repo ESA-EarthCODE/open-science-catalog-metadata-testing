@@ -1,0 +1,53 @@
+{
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "geometry": null,
+  "id": "cdse_federation_-_evi_timeseries_experiment_-_example_-_belgium",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/4d-antarctica/collection.json",
+      "type": "application/json",
+      "title": "Project: 4d-antarctica"
+    },
+    {
+      "rel": "application",
+      "type": "application/json",
+      "title": "openEO Workflow",
+      "href": "https://openeo.dataspace.copernicus.eu/openeo/1.1/processes/u:6391851f-9042-4108-8b2a-3dd2e8a9dd0b/evi_timeseries"
+    },
+    {
+      "rel": "related",
+      "href": "../../experiments/cdse_federation_-_evi_timeseries_experiment_-_example_-_belgium/record.json",
+      "type": "application/json",
+      "title": "Experiment: cdse_federation_-_evi_timeseries_experiment_-_example_-_belgium"
+    }
+  ],
+  "properties": {
+    "title": "CDSE Federation - EVI Timeseries Experiment - Example - Belgium - Workflow",
+    "description": "Workflow of CDSE Federation - EVI Timeseries Experiment - Example - Belgium",
+    "created": "2025-03-04T10:28:47.515Z",
+    "updated": "2025-03-04T10:28:47.515Z",
+    "type": "workflow",
+    "osc:missions": [],
+    "osc:project": "4d-antarctica",
+    "osc:status": "completed",
+    "osc:type": "workflow",
+    "osc:variables": [],
+    "osc:region": ""
+  }
+}
