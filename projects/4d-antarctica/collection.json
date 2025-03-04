@@ -102,6 +102,12 @@
       "href": "../../themes/cryosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "child",
+      "href": "../../experiment/cdse_federation_-_evi_timeseries_experiment_-_example_-_belgium/record.json",
+      "type": "application/json",
+      "title": "CDSE Federation - EVI Timeseries Experiment - Example - Belgium"
     }
   ],
   "stac_extensions": [
