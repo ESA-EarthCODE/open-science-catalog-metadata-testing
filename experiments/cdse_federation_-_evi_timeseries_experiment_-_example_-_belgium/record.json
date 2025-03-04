@@ -1,0 +1,65 @@
+{
+  "id": "cdse_federation_-_evi_timeseries_experiment_-_example_-_belgium",
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "geometry": null,
+  "properties": {
+    "created": "2025-03-04T13:35:08.001Z",
+    "updated": "2025-03-04T13:35:08.001Z",
+    "type": "experiment",
+    "title": "CDSE Federation - EVI Timeseries Experiment - Example - Belgium - Experiment",
+    "description": "Experiment of CDSE Federation - EVI Timeseries Experiment - Example - Belgium",
+    "license": "",
+    "osc:project": "4datlantic-ebus-primus",
+    "osc:workflow": "cdse_federation_-_evi_timeseries_experiment_-_example_-_belgium",
+    "osc:product": "cdse_federation_-_evi_timeseries_experiment_-_example_-_belgium",
+    "version": "2",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "land"
+          },
+          {
+            "id": "atmosphere"
+          }
+        ]
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Experiments"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/cdse_federation_-_evi_timeseries_experiment_-_example_-_belgium/record.json",
+      "type": "application/json",
+      "title": "Workflow: CDSE Federation - EVI Timeseries Experiment - Example - Belgium - Workflow"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/cdse_federation_-_evi_timeseries_experiment_-_example_-_belgium/collection.json",
+      "type": "application/json",
+      "title": "Product: CDSE Federation - EVI Timeseries Experiment - Example - Belgium - Product"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/4datlantic-ebus-primus/collection.json",
+      "type": "application/json",
+      "title": "Project: 4DATLANTIC EBUS PRIMUS"
+    }
+  ]
+}
