@@ -1,0 +1,69 @@
+{
+  "id": "black-sea-cube",
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "time": {},
+  "geometry": null,
+  "properties": {
+    "created": "2025-03-05T10:09:56.627001+00:00",
+    "updated": "2025-03-05T10:09:56.627001+00:00",
+    "type": "workflow",
+    "title": "black sea cube generation recipe",
+    "description": "black sea cube generation",
+    "jupyter_kernel_info": {
+      "name": "deepesdl-xcube-1.7.1",
+      "python_version": 3.11,
+      "env_file": "https://github.com/deepesdl/cube-gen/blob/main/environment.yml"
+    },
+    "keywords": [
+      "Earth Science"
+    ],
+    "contacts": [
+      {
+        "name": "Tejas Morbagal Harish",
+        "organization": "Brockmann Consult GmbH",
+        "position": "",
+        "links": [
+          {
+            "rel": "about",
+            "type": "text/html",
+            "href": "https://www.brockmann-consult.de/"
+          }
+        ],
+        "contactInstructions": "",
+        "roles": [
+          "principal investigator"
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "concepts": [
+          {
+            "id": "ocean"
+          }
+        ],
+        "scheme": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/sciencekeywords"
+      }
+    ],
+    "formats": [],
+    "license": "proprietary"
+  },
+  "linkTemplates": [],
+  "links": [
+    {
+      "rel": "documentation",
+      "type": "application/json",
+      "title": "4DMed Hydrology Cube Generation Recipe",
+      "href": "https://github.com/deepesdl/cube-gen/tree/main/black-sea/README.md"
+    },
+    {
+      "rel": "jupyter-notebook",
+      "type": "application/json",
+      "title": "Workflow Jupyter Notebook",
+      "href": "https://github.com/deepesdl/cube-gen/blob/main/black-sea/notebooks/example-cube-usage.ipynb"
+    }
+  ]
+}
