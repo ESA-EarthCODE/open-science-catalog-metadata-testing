@@ -48,6 +48,12 @@
       "href": "../../themes/solid-earth/catalog.json",
       "type": "application/json",
       "title": "Theme: Solid Earth"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/cdse_federation_-_evi_timeseries_experiment_-_example_-_belgium/collection.json",
+      "type": "application/json",
+      "title": "CDSE Federation - EVI Timeseries Experiment - Example - Belgium - Product"
     }
   ],
   "stac_extensions": [
