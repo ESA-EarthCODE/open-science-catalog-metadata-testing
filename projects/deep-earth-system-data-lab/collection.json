@@ -2,8 +2,13 @@
   "type": "Collection",
   "id": "deep-earth-system-data-lab",
   "stac_version": "1.0.0",
-  "description": "The Deep Earth System Data Lab (DeepESDL) delivers a service to the Earth Science community. The lab provides convenient access to relevant data sets, many of them generated in ESA’s science projects, in an analysis-ready format. Moreover, DeepESDL comprises a powerful data science environment with a focus on machine-learning and artificial intelligence workflows. Access the DeepESDL in github: https://github.com/deepesdl",
+  "description": "The Deep Earth System Data Lab (DeepESDL) delivers a service to the Earth Science community. The lab provides convenient access to relevant data sets, many of them generated in ESA\u2019s science projects, in an analysis-ready format. Moreover, DeepESDL comprises a powerful data science environment with a focus on machine-learning and artificial intelligence workflows. Access the DeepESDL in github: https://github.com/deepesdl",
   "links": [
+    {
+      "rel": "self",
+      "href": "/home/tejas/temp_repo/projects/deep-earth-system-data-lab/collection.json",
+      "type": "application/json"
+    },
     {
       "rel": "root",
       "href": "../../catalog.json",
@@ -33,11 +38,6 @@
       "title": "Projects"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/deepesdl/collection.json",
-      "type": "application/json"
-    },
-    {
       "rel": "related",
       "href": "../../themes/land/catalog.json",
       "type": "application/json",
@@ -54,6 +54,12 @@
       "href": "../../themes/atmosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/permafrost/collection.json",
+      "type": "application/json",
+      "title": "permafrost"
     }
   ],
   "stac_extensions": [
