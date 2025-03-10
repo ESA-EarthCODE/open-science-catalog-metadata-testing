@@ -20,6 +20,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/delta_nbr/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
     }
   ],
   "stac_extensions": [
@@ -29,7 +35,11 @@
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",
-      "concepts": []
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
     }
   ],
   "title": "delta_nbr"
