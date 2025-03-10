@@ -28,7 +28,7 @@
     },
     {
       "rel": "related",
-      "href": "../../varibales/delta_nbr/catalog.json",
+      "href": "../../variables/delta_nbr/catalog.json",
       "type": "application/json",
       "title": "Variable: delta_nbr"
     },
