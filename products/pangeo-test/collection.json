@@ -1,0 +1,85 @@
+{
+  "type": "Collection",
+  "id": "pangeo-test",
+  "stac_version": "1.1.0",
+  "description": "No description available.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "s3://pangeo-test-fires",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.sciencedirect.com/science/article/pii/S1470160X22004708#f0035",
+      "title": "Documentation"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../varibales/delta_nbr/catalog.json",
+      "type": "application/json",
+      "title": "Variable: delta_nbr"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/deepesdl/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.3/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:project": "deep-earth-system-data-lab",
+  "osc:type": "product",
+  "osc:status": "completed",
+  "osc:region": "global",
+  "osc:themes": [
+    "Land"
+  ],
+  "osc:variables": [
+    "delta_nbr"
+  ],
+  "osc:missions": [],
+  "cf:parameter": [
+    {
+      "name": "burned_area"
+    }
+  ],
+  "created": "2025-03-10T00:16:32.850085+00:00",
+  "updated": "2025-03-10T00:16:32.850085+00:00",
+  "title": "pangeo-test",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          2667472.5,
+          4537007.5,
+          2675497.5,
+          4547152.5
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-09-17T09:20:01.001000Z",
+          "2021-09-17T09:20:01.001000Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
