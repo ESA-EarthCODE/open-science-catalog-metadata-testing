@@ -2,13 +2,19 @@
   "type": "Catalog",
   "id": "delta_nbr",
   "stac_version": "1.1.0",
-  "description": null,
+  "description": "Description of the Delta NBR variable",
   "links": [
     {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://un-spider.org/advisory-support/recommended-practices/recommended-practice-burn-severity/in-detail/normalized-burn-ratio",
+      "type": "text/html",
+      "title": "Description"
     },
     {
       "rel": "parent",
