@@ -11,6 +11,12 @@
       "title": "Open Science Catalog"
     },
     {
+      "rel": "related",
+      "href": "../../projects/deep-earth-system-data-lab/collection.json",
+      "type": "application/json",
+      "title": "Project: DeepESDL"
+    },
+    {
       "rel": "via",
       "href": "s3://pangeo-test-fires",
       "title": "Access"
