@@ -1,0 +1,69 @@
+{
+  "id": "create-pangeo-test-data",
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "time": {},
+  "geometry": null,
+  "properties": {
+    "created": "2025-03-11T13:34:40.226657+00:00",
+    "updated": "2025-03-11T13:34:40.226657+00:00",
+    "type": "workflow",
+    "title": "Pangeo-test data notebook",
+    "description": "The notebook used to create the pangeo-test data",
+    "jupyter_kernel_info": {
+      "name": "deepesdl-xcube-1.7.1",
+      "python_version": 3.11,
+      "env_file": "https://git/env.yml"
+    },
+    "keywords": [
+      "Earth Science"
+    ],
+    "contacts": [
+      {
+        "name": "Anders Varmann Aamodt",
+        "organization": "Simula Research Laboratory",
+        "position": "",
+        "links": [
+          {
+            "rel": "about",
+            "type": "text/html",
+            "href": "https://www.simula.no/"
+          }
+        ],
+        "contactInstructions": "",
+        "roles": [
+          "principal investigator"
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "concepts": [
+          {
+            "id": "Land"
+          }
+        ],
+        "scheme": "https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/sciencekeywords"
+      }
+    ],
+    "formats": [],
+    "license": "proprietary"
+  },
+  "linkTemplates": [],
+  "links": [
+    {
+      "rel": "documentation",
+      "type": "application/json",
+      "title": "4DMed Hydrology Cube Generation Recipe",
+      "href": "https://github.com/deepesdl/cube-gen/tree/main/hydrology/README.md"
+    },
+    {
+      "rel": "jupyter-notebook",
+      "type": "application/json",
+      "title": "Workflow Jupyter Notebook",
+      "href": "https://github.com/pangeo-data/foss4g-2022/blob/main/tutorial/examples/dask/wildfires_daskgateway.ipynb"
+    }
+  ]
+}
