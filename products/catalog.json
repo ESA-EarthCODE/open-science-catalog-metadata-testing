@@ -1805,6 +1805,12 @@
       "title": "POLARIS"
     },
     {
+      "rel": "child",
+      "href": "./pangeo-test/collection.json",
+      "type": "application/json",
+      "title": "pangeo-test"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
