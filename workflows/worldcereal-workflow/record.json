@@ -140,6 +140,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/worldcereal-workflow/record.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../experiments/cdse_federation_-_evi_timeseries_experiment_-_example_-_belgium/record.json",
+      "type": "application/json",
+      "title": "Experiment: cdse_federation_-_evi_timeseries_experiment_-_example_-_belgium"
     }
   ]
 }
