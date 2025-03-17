@@ -578,7 +578,7 @@
       "rel": "child",
       "href": "./l3-sss-9day-average-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 3 SSS, , 9-day averaged produced daily"
+      "title": "Level 3 SSS, 0.25°*0.25°, 9-day averaged produced daily"
     },
     {
       "rel": "child",
@@ -614,7 +614,7 @@
       "rel": "child",
       "href": "./l4-sss-eo4sibs/collection.json",
       "type": "application/json",
-      "title": "Level 4 product SSS, 0.05\u00b0*0.0505\u00b0"
+      "title": "Level 4 product SSS, 0.05°*0.0505°"
     },
     {
       "rel": "child",
