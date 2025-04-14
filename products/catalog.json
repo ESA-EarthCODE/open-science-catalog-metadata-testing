@@ -1820,6 +1820,42 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./0012aa16-cbc4-4c0c-b222-c120a9ffa446/collection.json",
+      "type": "application/json",
+      "title": "grgrggrgrgrgr"
+    },
+    {
+      "rel": "child",
+      "href": "./22cf1cc5-c068-4274-a820-ebce0af36be7/collection.json",
+      "type": "application/json",
+      "title": "thtrhth"
+    },
+    {
+      "rel": "child",
+      "href": "./b84cf87b-3a1c-42d3-81e7-1146c785fe1b/collection.json",
+      "type": "application/json",
+      "title": "gfhhfhfhh"
+    },
+    {
+      "rel": "child",
+      "href": "./6d788e1a-11e9-456c-b223-6e71b6e8f369/collection.json",
+      "type": "application/json",
+      "title": "dfsffssg"
+    },
+    {
+      "rel": "child",
+      "href": "./2539757d-7c65-4c29-b44b-aac404e4fdf3/collection.json",
+      "type": "application/json",
+      "title": "gbbvbv"
+    },
+    {
+      "rel": "child",
+      "href": "./b2b88fd2-6e56-442c-b3df-70c6c9bb8d10/collection.json",
+      "type": "application/json",
+      "title": "dccddcdcdc"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",
