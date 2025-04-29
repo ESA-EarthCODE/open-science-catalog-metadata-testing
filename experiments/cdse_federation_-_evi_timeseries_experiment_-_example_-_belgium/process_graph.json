@@ -1,0 +1,61 @@
+{
+  "process_graph": {
+    "evitimeseries1": {
+      "arguments": {
+        "spatial_extent": {
+          "features": [
+            {
+              "geometry": {
+                "coordinates": [
+                  [
+                    [
+                      5.237940082258575,
+                      51.261328505909376
+                    ],
+                    [
+                      5.2592841876327725,
+                      51.24912709441142
+                    ],
+                    [
+                      5.271576732017934,
+                      51.25238044945303
+                    ],
+                    [
+                      5.263267882571938,
+                      51.266697225027485
+                    ],
+                    [
+                      5.237940082258575,
+                      51.261328505909376
+                    ]
+                  ]
+                ],
+                "type": "Polygon"
+              },
+              "properties": {},
+              "type": "Feature"
+            }
+          ],
+          "type": "FeatureCollection"
+        },
+        "temporal_interval": [
+          "2024-06-08",
+          "2024-06-08"
+        ]
+      },
+      "namespace": "https://openeo.dataspace.copernicus.eu/openeo/1.1/processes/u:6391851f-9042-4108-8b2a-3dd2e8a9dd0b/evi_timeseries",
+      "process_id": "evi_timeseries"
+    },
+    "saveresult1": {
+      "arguments": {
+        "data": {
+          "from_node": "evitimeseries1"
+        },
+        "format": "GTiff",
+        "options": {}
+      },
+      "process_id": "save_result",
+      "result": true
+    }
+  }
+}
