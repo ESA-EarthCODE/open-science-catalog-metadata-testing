@@ -1,0 +1,326 @@
+{
+  "assets": {
+    "openEO_2024-06-08Z.tif": {
+      "href": "https://openeo.dataspace.copernicus.eu/openeo/1.1/jobs/j-2504290925324e7b824a7e712ea9f5d6/results/assets/NjM5MTg1MWYtOTA0Mi00MTA4LThiMmEtM2RkMmU4YTlkZDBi/3192674ff0ed3b0654f16dce7de6d119/openEO_2024-06-08Z.tif?expires=1746529643",
+      "proj:bbox": [
+        656120,
+        5679900,
+        658540,
+        5681940
+      ],
+      "proj:epsg": 32631,
+      "proj:shape": [
+        204,
+        242
+      ],
+      "raster:bands": [
+        {
+          "name": "1",
+          "statistics": {
+            "maximum": 1.1349732875824,
+            "mean": 0.49484493055285,
+            "minimum": 0.10654845833778,
+            "stddev": 0.26854860125264,
+            "valid_percent": 20.6
+          }
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "openEO_2024-06-08Z.tif",
+      "type": "image/tiff; application=geotiff"
+    },
+    "openEO_2024-06-23Z.tif": {
+      "href": "https://openeo.dataspace.copernicus.eu/openeo/1.1/jobs/j-2504290925324e7b824a7e712ea9f5d6/results/assets/NjM5MTg1MWYtOTA0Mi00MTA4LThiMmEtM2RkMmU4YTlkZDBi/5b3e0615f9c42ab70100239f564d2c27/openEO_2024-06-23Z.tif?expires=1746529643",
+      "proj:bbox": [
+        656120,
+        5679900,
+        658540,
+        5681940
+      ],
+      "proj:epsg": 32631,
+      "proj:shape": [
+        204,
+        242
+      ],
+      "raster:bands": [
+        {
+          "name": "1",
+          "statistics": {
+            "maximum": 1.0365978479385,
+            "mean": 0.64392571885732,
+            "minimum": 0.24963793158531,
+            "stddev": 0.222045872273,
+            "valid_percent": 3.851
+          }
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "openEO_2024-06-23Z.tif",
+      "type": "image/tiff; application=geotiff"
+    },
+    "openEO_2024-06-25Z.tif": {
+      "href": "https://openeo.dataspace.copernicus.eu/openeo/1.1/jobs/j-2504290925324e7b824a7e712ea9f5d6/results/assets/NjM5MTg1MWYtOTA0Mi00MTA4LThiMmEtM2RkMmU4YTlkZDBi/1d7cb952713907df60ab48a9a265859d/openEO_2024-06-25Z.tif?expires=1746529643",
+      "proj:bbox": [
+        656120,
+        5679900,
+        658540,
+        5681940
+      ],
+      "proj:epsg": 32631,
+      "proj:shape": [
+        204,
+        242
+      ],
+      "raster:bands": [
+        {
+          "name": "1",
+          "statistics": {
+            "maximum": 1.0928508043289,
+            "mean": 0.47556326602636,
+            "minimum": 0.10350574553013,
+            "stddev": 0.23045380093656,
+            "valid_percent": 42.76
+          }
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "openEO_2024-06-25Z.tif",
+      "type": "image/tiff; application=geotiff"
+    },
+    "openEO_2024-06-28Z.tif": {
+      "href": "https://openeo.dataspace.copernicus.eu/openeo/1.1/jobs/j-2504290925324e7b824a7e712ea9f5d6/results/assets/NjM5MTg1MWYtOTA0Mi00MTA4LThiMmEtM2RkMmU4YTlkZDBi/6d5fbef24ee380c187ca3e8060cb5ed1/openEO_2024-06-28Z.tif?expires=1746529643",
+      "proj:bbox": [
+        656120,
+        5679900,
+        658540,
+        5681940
+      ],
+      "proj:epsg": 32631,
+      "proj:shape": [
+        204,
+        242
+      ],
+      "raster:bands": [
+        {
+          "name": "1",
+          "statistics": {
+            "maximum": 1.044046163559,
+            "mean": 0.65683396065697,
+            "minimum": 0.17813014984131,
+            "stddev": 0.19817936907775,
+            "valid_percent": 5.852
+          }
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "openEO_2024-06-28Z.tif",
+      "type": "image/tiff; application=geotiff"
+    }
+  },
+  "description": "Product of CDSE Federation - EVI Timeseries Experiment - Example - Belgium",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "id": "cdse_federation_-_evi_timeseries_experiment_-_example_-_belgium",
+  "license": "proprietary",
+  "links": [
+    {
+      "href": "/eodata/Sentinel-2/MSI/L2A/2024/06/08/S2A_MSIL2A_20240608T104631_N0510_R051_T31UFS_20240608T164745.SAFE",
+      "rel": "derived_from",
+      "title": "Derived from /eodata/Sentinel-2/MSI/L2A/2024/06/08/S2A_MSIL2A_20240608T104631_N0510_R051_T31UFS_20240608T164745.SAFE",
+      "type": "application/json"
+    },
+    {
+      "href": "/eodata/Sentinel-2/MSI/L2A/2024/06/25/S2A_MSIL2A_20240625T103631_N0510_R008_T31UFS_20240625T164350.SAFE",
+      "rel": "derived_from",
+      "title": "Derived from /eodata/Sentinel-2/MSI/L2A/2024/06/25/S2A_MSIL2A_20240625T103631_N0510_R008_T31UFS_20240625T164350.SAFE",
+      "type": "application/json"
+    },
+    {
+      "href": "/eodata/Sentinel-2/MSI/L2A/2024/06/05/S2A_MSIL2A_20240605T104031_N0510_R008_T31UFS_20240605T182755.SAFE",
+      "rel": "derived_from",
+      "title": "Derived from /eodata/Sentinel-2/MSI/L2A/2024/06/05/S2A_MSIL2A_20240605T104031_N0510_R008_T31UFS_20240605T182755.SAFE",
+      "type": "application/json"
+    },
+    {
+      "href": "/eodata/Sentinel-2/MSI/L2A/2024/06/15/S2A_MSIL2A_20240615T104031_N0510_R008_T31UFS_20240615T181049.SAFE",
+      "rel": "derived_from",
+      "title": "Derived from /eodata/Sentinel-2/MSI/L2A/2024/06/15/S2A_MSIL2A_20240615T104031_N0510_R008_T31UFS_20240615T181049.SAFE",
+      "type": "application/json"
+    },
+    {
+      "href": "/eodata/Sentinel-2/MSI/L2A/2024/06/23/S2B_MSIL2A_20240623T104619_N0510_R051_T31UFS_20240623T122156.SAFE",
+      "rel": "derived_from",
+      "title": "Derived from /eodata/Sentinel-2/MSI/L2A/2024/06/23/S2B_MSIL2A_20240623T104619_N0510_R051_T31UFS_20240623T122156.SAFE",
+      "type": "application/json"
+    },
+    {
+      "href": "/eodata/Sentinel-2/MSI/L2A/2024/06/28/S2A_MSIL2A_20240628T105031_N0510_R051_T31UFS_20240628T165157.SAFE",
+      "rel": "derived_from",
+      "title": "Derived from /eodata/Sentinel-2/MSI/L2A/2024/06/28/S2A_MSIL2A_20240628T105031_N0510_R051_T31UFS_20240628T165157.SAFE",
+      "type": "application/json"
+    },
+    {
+      "href": "/eodata/Sentinel-2/MSI/L2A/2024/06/08/S2A_MSIL2A_20240608T104631_N0510_R051_T31UFS_20240608T164745.SAFE",
+      "rel": "derived_from",
+      "title": "Derived from /eodata/Sentinel-2/MSI/L2A/2024/06/08/S2A_MSIL2A_20240608T104631_N0510_R051_T31UFS_20240608T164745.SAFE",
+      "type": "application/json"
+    },
+    {
+      "href": "/eodata/Sentinel-2/MSI/L2A/2024/06/25/S2A_MSIL2A_20240625T103631_N0510_R008_T31UFS_20240625T164350.SAFE",
+      "rel": "derived_from",
+      "title": "Derived from /eodata/Sentinel-2/MSI/L2A/2024/06/25/S2A_MSIL2A_20240625T103631_N0510_R008_T31UFS_20240625T164350.SAFE",
+      "type": "application/json"
+    },
+    {
+      "href": "/eodata/Sentinel-2/MSI/L2A/2024/06/05/S2A_MSIL2A_20240605T104031_N0510_R008_T31UFS_20240605T182755.SAFE",
+      "rel": "derived_from",
+      "title": "Derived from /eodata/Sentinel-2/MSI/L2A/2024/06/05/S2A_MSIL2A_20240605T104031_N0510_R008_T31UFS_20240605T182755.SAFE",
+      "type": "application/json"
+    },
+    {
+      "href": "/eodata/Sentinel-2/MSI/L2A/2024/06/15/S2A_MSIL2A_20240615T104031_N0510_R008_T31UFS_20240615T181049.SAFE",
+      "rel": "derived_from",
+      "title": "Derived from /eodata/Sentinel-2/MSI/L2A/2024/06/15/S2A_MSIL2A_20240615T104031_N0510_R008_T31UFS_20240615T181049.SAFE",
+      "type": "application/json"
+    },
+    {
+      "href": "/eodata/Sentinel-2/MSI/L2A/2024/06/23/S2B_MSIL2A_20240623T104619_N0510_R051_T31UFS_20240623T122156.SAFE",
+      "rel": "derived_from",
+      "title": "Derived from /eodata/Sentinel-2/MSI/L2A/2024/06/23/S2B_MSIL2A_20240623T104619_N0510_R051_T31UFS_20240623T122156.SAFE",
+      "type": "application/json"
+    },
+    {
+      "href": "/eodata/Sentinel-2/MSI/L2A/2024/06/28/S2A_MSIL2A_20240628T105031_N0510_R051_T31UFS_20240628T165157.SAFE",
+      "rel": "derived_from",
+      "title": "Derived from /eodata/Sentinel-2/MSI/L2A/2024/06/28/S2A_MSIL2A_20240628T105031_N0510_R051_T31UFS_20240628T165157.SAFE",
+      "type": "application/json"
+    },
+    {
+      "href": "https://openeo.dataspace.copernicus.eu/openeo/1.1/jobs/j-2504290925324e7b824a7e712ea9f5d6/results/NjM5MTg1MWYtOTA0Mi00MTA4LThiMmEtM2RkMmU4YTlkZDBi/7c390e8ee2438ade0416d700c7862b9e?expires=1746529643",
+      "rel": "via",
+      "type": "application/json"
+    },
+    {
+      "href": "http://ceos.org/ard/files/PFS/SR/v5.0/CARD4L_Product_Family_Specification_Surface_Reflectance-v5.0.pdf",
+      "rel": "card4l-document",
+      "type": "application/pdf"
+    },
+    {
+      "href": "https://openeo.dataspace.copernicus.eu/openeo/1.1/jobs/j-2504290925324e7b824a7e712ea9f5d6/results/items/NjM5MTg1MWYtOTA0Mi00MTA4LThiMmEtM2RkMmU4YTlkZDBi/3192674ff0ed3b0654f16dce7de6d119/openEO_2024-06-08Z.tif?expires=1746529643",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "https://openeo.dataspace.copernicus.eu/openeo/1.1/jobs/j-2504290925324e7b824a7e712ea9f5d6/results/items/NjM5MTg1MWYtOTA0Mi00MTA4LThiMmEtM2RkMmU4YTlkZDBi/1d7cb952713907df60ab48a9a265859d/openEO_2024-06-25Z.tif?expires=1746529643",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "https://openeo.dataspace.copernicus.eu/openeo/1.1/jobs/j-2504290925324e7b824a7e712ea9f5d6/results/items/NjM5MTg1MWYtOTA0Mi00MTA4LThiMmEtM2RkMmU4YTlkZDBi/5b3e0615f9c42ab70100239f564d2c27/openEO_2024-06-23Z.tif?expires=1746529643",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "https://openeo.dataspace.copernicus.eu/openeo/1.1/jobs/j-2504290925324e7b824a7e712ea9f5d6/results/items/NjM5MTg1MWYtOTA0Mi00MTA4LThiMmEtM2RkMmU4YTlkZDBi/6d5fbef24ee380c187ca3e8060cb5ed1/openEO_2024-06-28Z.tif?expires=1746529643",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "https://openeofed.dataspace.copernicus.eu/openeo/jobs/cdse-j-2504290925324e7b824a7e712ea9f5d6/results",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "https://openeofed.dataspace.copernicus.eu/openeo/jobs/cdse-j-2504290925324e7b824a7e712ea9f5d6/results/items/NjM5MTg1MWYtOTA0Mi00MTA4LThiMmEtM2RkMmU4YTlkZDBi/dc0cc6e153816876a9d0500132ab8688/openEO_2024-06-08Z.tif?expires=1746529643",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "https://openeofed.dataspace.copernicus.eu/openeo/jobs/cdse-j-2504290925324e7b824a7e712ea9f5d6/results/items/NjM5MTg1MWYtOTA0Mi00MTA4LThiMmEtM2RkMmU4YTlkZDBi/6adf567739caac45db01ffc131b7ce15/openEO_2024-06-23Z.tif?expires=1746529643",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "https://openeofed.dataspace.copernicus.eu/openeo/jobs/cdse-j-2504290925324e7b824a7e712ea9f5d6/results/items/NjM5MTg1MWYtOTA0Mi00MTA4LThiMmEtM2RkMmU4YTlkZDBi/e781ff550f51bc36f864029f185d9d5f/openEO_2024-06-25Z.tif?expires=1746529643",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "https://openeofed.dataspace.copernicus.eu/openeo/jobs/cdse-j-2504290925324e7b824a7e712ea9f5d6/results/items/NjM5MTg1MWYtOTA0Mi00MTA4LThiMmEtM2RkMmU4YTlkZDBi/593a0eca1b749cdd8dede8d11fa8d700/openEO_2024-06-28Z.tif?expires=1746529643",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/worldcereal/collection.json",
+      "type": "application/json",
+      "title": "Project: WorldCereal"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "stac_version": "1.0.0",
+  "title": "CDSE Federation - EVI Timeseries Experiment - Example - Belgium - Product",
+  "type": "Collection",
+  "osc:missions": [],
+  "osc:project": "worldcereal",
+  "osc:status": "completed",
+  "osc:type": "product",
+  "osc:variables": [],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ]
+}
