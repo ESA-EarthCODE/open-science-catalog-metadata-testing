@@ -7,8 +7,8 @@
   ],
   "geometry": null,
   "properties": {
-    "created": "2025-03-17T14:30:23.650003+00:00",
-    "updated": "2025-03-17T14:30:23.650003+00:00",
+    "created": "2025-05-05T15:27:31.291686+00:00",
+    "updated": "2025-05-05T15:27:31.291686+00:00",
     "type": "experiment",
     "title": "ESA CCI permafrost",
     "description": "cube generation workflow for esa-cci-permafrost",
