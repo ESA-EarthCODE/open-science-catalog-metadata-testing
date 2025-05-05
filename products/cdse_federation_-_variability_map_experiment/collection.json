@@ -1,0 +1,137 @@
+{
+  "assets": {
+    "openEO.tif": {
+      "href": "https://openeo.dataspace.copernicus.eu/openeo/1.1/jobs/j-25050510085540dd8396bedde53c8b00/results/assets/NjM5MTg1MWYtOTA0Mi00MTA4LThiMmEtM2RkMmU4YTlkZDBi/5700bbf6bdacc7d2b0378fb894973889/openEO.tif?expires=1747050236",
+      "proj:bbox": [
+        651440,
+        5679500,
+        652090,
+        5679940
+      ],
+      "proj:epsg": 32631,
+      "proj:shape": [
+        44,
+        65
+      ],
+      "raster:bands": [
+        {
+          "name": "1",
+          "statistics": {
+            "maximum": 6,
+            "mean": 4.3489510489511,
+            "minimum": 1,
+            "stddev": 1.8181050279642,
+            "valid_percent": 100
+          }
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "openEO.tif",
+      "type": "image/tiff; application=geotiff"
+    }
+  },
+  "description": "Product of CDSE Federation - Variability Map Experiment",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "id": "cdse_federation_-_variability_map_experiment",
+  "license": "proprietary",
+  "links": [
+    {
+      "href": "/eodata/Sentinel-2/MSI/L2A/2025/05/01/S2C_MSIL2A_20250501T104041_N0511_R008_T31UFS_20250501T161558.SAFE",
+      "rel": "derived_from",
+      "title": "Derived from /eodata/Sentinel-2/MSI/L2A/2025/05/01/S2C_MSIL2A_20250501T104041_N0511_R008_T31UFS_20250501T161558.SAFE",
+      "type": "application/json"
+    },
+    {
+      "href": "https://openeo.dataspace.copernicus.eu/openeo/1.1/jobs/j-25050510085540dd8396bedde53c8b00/results/NjM5MTg1MWYtOTA0Mi00MTA4LThiMmEtM2RkMmU4YTlkZDBi/a184c62d8b6679d533e0793510ad4a38?expires=1747050236",
+      "rel": "via",
+      "type": "application/json"
+    },
+    {
+      "href": "http://ceos.org/ard/files/PFS/SR/v5.0/CARD4L_Product_Family_Specification_Surface_Reflectance-v5.0.pdf",
+      "rel": "card4l-document",
+      "type": "application/pdf"
+    },
+    {
+      "href": "https://openeo.dataspace.copernicus.eu/openeo/1.1/jobs/j-25050510085540dd8396bedde53c8b00/results/items/NjM5MTg1MWYtOTA0Mi00MTA4LThiMmEtM2RkMmU4YTlkZDBi/5700bbf6bdacc7d2b0378fb894973889/openEO.tif?expires=1747050236",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "https://openeofed.dataspace.copernicus.eu/openeo/jobs/cdse-j-25050510085540dd8396bedde53c8b00/results",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "https://openeofed.dataspace.copernicus.eu/openeo/jobs/cdse-j-25050510085540dd8396bedde53c8b00/results/items/NjM5MTg1MWYtOTA0Mi00MTA4LThiMmEtM2RkMmU4YTlkZDBi/c8834d0b61098a9b09a3e899f09f486c/openEO.tif?expires=1747050236",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/worldcereal/collection.json",
+      "type": "application/json",
+      "title": "Project: WorldCereal"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "stac_version": "1.0.0",
+  "title": "CDSE Federation - Variability Map Experiment - Product",
+  "type": "Collection",
+  "osc:missions": [],
+  "osc:project": "worldcereal",
+  "osc:status": "completed",
+  "osc:type": "product",
+  "osc:variables": [],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ]
+}
