@@ -36,6 +36,12 @@
       "href": "../../themes/atmosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/cdse_federation_-_variability_map_experiment_(reproduce)/collection.json",
+      "type": "application/json",
+      "title": "CDSE Federation - Variability Map Experiment (reproduce) - Product"
     }
   ],
   "stac_extensions": [
