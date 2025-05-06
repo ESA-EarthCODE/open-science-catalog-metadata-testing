@@ -1,0 +1,86 @@
+{
+  "id": "cdse_federation_-_variability_map_experiment_(reproduce)",
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "geometry": null,
+  "properties": {
+    "created": "2025-05-06T06:32:25.135Z",
+    "updated": "2025-05-06T06:32:25.136Z",
+    "type": "experiment",
+    "title": "CDSE Federation - Variability Map Experiment (reproduce) - Experiment",
+    "description": "Experiment of CDSE Federation - Variability Map Experiment (reproduce)",
+    "license": "",
+    "osc:project": "aeolus-innovation-aeurs-expro-ocean-surface-wind-from-aeolus-sea-surface-returns-sea-flect",
+    "osc:workflow": "cdse_federation_-_variability_map_experiment_(reproduce)",
+    "osc:product": "cdse_federation_-_variability_map_experiment_(reproduce)",
+    "version": "2",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "cryosphere"
+          }
+        ]
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Experiments"
+    },
+    {
+      "rel": "input",
+      "href": "./input.yaml",
+      "type": "application/yaml",
+      "title": "Input parameters"
+    },
+    {
+      "rel": "environment",
+      "href": "./environment.yaml",
+      "type": "application/yaml",
+      "title": "Execution environment"
+    },
+    {
+      "rel": "process_graph",
+      "href": "./process_graph.json",
+      "type": "application/json",
+      "title": "openEO Process Graph"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/cdse_federation_-_variability_map_experiment_(reproduce)/record.json",
+      "type": "application/json",
+      "title": "Workflow: CDSE Federation - Variability Map Experiment (reproduce) - Workflow"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/cdse_federation_-_variability_map_experiment_(reproduce)/collection.json",
+      "type": "application/json",
+      "title": "Product: CDSE Federation - Variability Map Experiment (reproduce) - Product"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/aeolus-innovation-aeurs-expro-ocean-surface-wind-from-aeolus-sea-surface-returns-sea-flect/collection.json",
+      "type": "application/json",
+      "title": "Project: AEOLUS+inno - SEA-FLECT"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    }
+  ]
+}
