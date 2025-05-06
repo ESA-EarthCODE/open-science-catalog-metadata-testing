@@ -1,0 +1,137 @@
+{
+  "assets": {
+    "openEO.tif": {
+      "href": "https://openeo.dataspace.copernicus.eu/openeo/1.1/jobs/j-250505115152479a91cfd13853c0f569/results/assets/NjM5MTg1MWYtOTA0Mi00MTA4LThiMmEtM2RkMmU4YTlkZDBi/3f3b4c29d1fecdc4ebf7d314c0f6d42f/openEO.tif?expires=1747117910",
+      "proj:bbox": [
+        651440,
+        5679500,
+        652090,
+        5679940
+      ],
+      "proj:epsg": 32631,
+      "proj:shape": [
+        44,
+        65
+      ],
+      "raster:bands": [
+        {
+          "name": "1",
+          "statistics": {
+            "maximum": 6,
+            "mean": 4.3489510489511,
+            "minimum": 1,
+            "stddev": 1.8181050279642,
+            "valid_percent": 100
+          }
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "openEO.tif",
+      "type": "image/tiff; application=geotiff"
+    }
+  },
+  "description": "Product of CDSE Federation - Variability Map Experiment (reproduce)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "id": "cdse_federation_-_variability_map_experiment_(reproduce)",
+  "license": "proprietary",
+  "links": [
+    {
+      "href": "/eodata/Sentinel-2/MSI/L2A/2025/05/01/S2C_MSIL2A_20250501T104041_N0511_R008_T31UFS_20250501T161558.SAFE",
+      "rel": "derived_from",
+      "title": "Derived from /eodata/Sentinel-2/MSI/L2A/2025/05/01/S2C_MSIL2A_20250501T104041_N0511_R008_T31UFS_20250501T161558.SAFE",
+      "type": "application/json"
+    },
+    {
+      "href": "https://openeo.dataspace.copernicus.eu/openeo/1.1/jobs/j-250505115152479a91cfd13853c0f569/results/NjM5MTg1MWYtOTA0Mi00MTA4LThiMmEtM2RkMmU4YTlkZDBi/6c376e7ff18e298828d220b6c174ba71?expires=1747117910",
+      "rel": "via",
+      "type": "application/json"
+    },
+    {
+      "href": "http://ceos.org/ard/files/PFS/SR/v5.0/CARD4L_Product_Family_Specification_Surface_Reflectance-v5.0.pdf",
+      "rel": "card4l-document",
+      "type": "application/pdf"
+    },
+    {
+      "href": "https://openeo.dataspace.copernicus.eu/openeo/1.1/jobs/j-250505115152479a91cfd13853c0f569/results/items/NjM5MTg1MWYtOTA0Mi00MTA4LThiMmEtM2RkMmU4YTlkZDBi/3f3b4c29d1fecdc4ebf7d314c0f6d42f/openEO.tif?expires=1747117910",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "https://openeofed.dataspace.copernicus.eu/openeo/jobs/cdse-j-250505115152479a91cfd13853c0f569/results",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "https://openeofed.dataspace.copernicus.eu/openeo/jobs/cdse-j-250505115152479a91cfd13853c0f569/results/items/NjM5MTg1MWYtOTA0Mi00MTA4LThiMmEtM2RkMmU4YTlkZDBi/6b5c297a33c1d0bf245c03e42a72dd67/openEO.tif?expires=1747117910",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/aeolus-innovation-aeurs-expro-lidar-measurements-to-identify-streamers-and-analyze-atmospheric-waves-lisa/collection.json",
+      "type": "application/json",
+      "title": "Project: AEOLUS+inno - LISA"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "stac_version": "1.0.0",
+  "title": "CDSE Federation - Variability Map Experiment (reproduce) - Product",
+  "type": "Collection",
+  "osc:missions": [],
+  "osc:project": "aeolus-innovation-aeurs-expro-lidar-measurements-to-identify-streamers-and-analyze-atmospheric-waves-lisa",
+  "osc:status": "completed",
+  "osc:type": "product",
+  "osc:variables": [],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ]
+}
