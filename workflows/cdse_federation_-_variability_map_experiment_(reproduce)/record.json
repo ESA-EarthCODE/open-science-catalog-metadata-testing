@@ -1,0 +1,69 @@
+{
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "geometry": null,
+  "id": "cdse_federation_-_variability_map_experiment_(reproduce)",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/aeolus-innovation-aeurs-expro-ocean-surface-wind-from-aeolus-sea-surface-returns-sea-flect/collection.json",
+      "type": "application/json",
+      "title": "Project: AEOLUS+inno - SEA-FLECT"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "application",
+      "type": "application/json",
+      "title": "openEO Workflow",
+      "href": "foo.bar"
+    },
+    {
+      "rel": "related",
+      "href": "../../experiments/cdse_federation_-_variability_map_experiment_(reproduce)/record.json",
+      "type": "application/json",
+      "title": "Experiment: cdse_federation_-_variability_map_experiment_(reproduce)"
+    }
+  ],
+  "properties": {
+    "title": "CDSE Federation - Variability Map Experiment (reproduce) - Workflow",
+    "description": "Workflow of CDSE Federation - Variability Map Experiment (reproduce)",
+    "created": "2025-05-06T06:35:00.159Z",
+    "updated": "2025-05-06T06:35:00.160Z",
+    "type": "workflow",
+    "osc:missions": [],
+    "osc:project": "aeolus-innovation-aeurs-expro-ocean-surface-wind-from-aeolus-sea-surface-returns-sea-flect",
+    "osc:status": "completed",
+    "osc:type": "workflow",
+    "osc:variables": [],
+    "osc:region": "",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "cryosphere"
+          }
+        ]
+      }
+    ]
+  }
+}
