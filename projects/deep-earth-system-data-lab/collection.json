@@ -1,7 +1,7 @@
 {
   "type": "Collection",
   "id": "deep-earth-system-data-lab",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "The Deep Earth System Data Lab (DeepESDL) delivers a service to the Earth Science community. The lab provides convenient access to relevant data sets, many of them generated in ESA's science projects, in an analysis-ready format. Moreover, DeepESDL comprises a powerful data science environment with a focus on machine-learning and artificial intelligence workflows. Access the DeepESDL in github: https://github.com/deepesdl",
   "links": [
     {
@@ -49,6 +49,18 @@
       "href": "../../themes/atmosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/esa-cci-permafrost/collection.json",
+      "type": "application/json",
+      "title": "esa-cci-permafrost"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
     },
     {
       "rel": "child",
@@ -156,7 +168,7 @@
       ]
     }
   },
-  "license": "proprietary",
+  "license": "other",
   "keywords": [
     "Earth System",
     "Climate Change",
