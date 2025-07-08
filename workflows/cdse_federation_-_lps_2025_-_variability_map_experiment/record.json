@@ -1,0 +1,69 @@
+{
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "geometry": null,
+  "id": "cdse_federation_-_lps_2025_-_variability_map_experiment",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/3d-earth/collection.json",
+      "type": "application/json",
+      "title": "Project: 3D-EARTH"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "application",
+      "type": "application/json",
+      "title": "openEO Workflow",
+      "href": "https://workflow.foo.bar"
+    },
+    {
+      "rel": "related",
+      "href": "../../experiments/cdse_federation_-_lps_2025_-_variability_map_experiment/record.json",
+      "type": "application/json",
+      "title": "Experiment: cdse_federation_-_lps_2025_-_variability_map_experiment"
+    }
+  ],
+  "properties": {
+    "title": "CDSE Federation - LPS 2025 - Variability Map Experiment - Workflow",
+    "description": "Workflow of CDSE Federation - LPS 2025 - Variability Map Experiment",
+    "created": "2025-07-08T11:23:02.514Z",
+    "updated": "2025-07-08T11:23:02.514Z",
+    "type": "workflow",
+    "osc:missions": [],
+    "osc:project": "3d-earth",
+    "osc:status": "completed",
+    "osc:type": "workflow",
+    "osc:variables": [],
+    "osc:region": "",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "cryosphere"
+          }
+        ]
+      }
+    ]
+  }
+}
