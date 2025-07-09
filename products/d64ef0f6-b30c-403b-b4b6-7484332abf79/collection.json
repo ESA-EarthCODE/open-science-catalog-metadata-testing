@@ -1,4 +1,49 @@
 {
   "id": "d64ef0f6-b30c-403b-b4b6-7484332abf79",
-  "title": "rtrtrtrtrt"
+  "title": "rtrtrtrtrt",
+  "stac_version": "1.0.0",
+  "type": "Collection",
+  "description": "",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        null
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "../../eo-missions/alos-2/catalog.json",
+      "type": "application/json",
+      "title": "ALOS-2"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/alos-4/catalog.json",
+      "type": "application/json",
+      "title": "ALOS-4"
+    }
+  ],
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": "",
+  "themes": [
+    {
+      "scheme": "OSC:SCHEME:THEMES",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "osc:missions": [
+    "alos-2",
+    "alos-4"
+  ]
 }
