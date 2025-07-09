@@ -307,6 +307,12 @@
       "href": "../../products/addit-earthquake-tsunami-tool-costo/collection.json",
       "type": "application/json",
       "title": "ADDTID: An Alternative Tool for Stasassasudying Earthquake/Tsunami Signatures in the Ionosphere_Japan_SWARM"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/d64ef0f6-b30c-403b-b4b6-7484332abf79/collection.json",
+      "type": "application/json",
+      "title": "rtrtrtrtrt"
     }
   ],
   "updated": "2024-08-27T17:27:42.198831Z",
