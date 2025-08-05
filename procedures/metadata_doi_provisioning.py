@@ -29,6 +29,9 @@ data_cite_p =  os.getenv('DATACITE_P')
 doi_prefix = "10.80823"
 catalog_base_url = "https://opensciencedata.esa.int/products/"
 
+# citation doi url
+citation_doi_url = "https://citation.doi.org"
+
 # todo: set the url to 'test' or 'production' environment
 data_cite_url = data_cite_url_test
 
@@ -67,8 +70,8 @@ def retrieveDoiMtd(doi_val):
 
     if(res.status_code == 200):
       printLog("successful")
-      #printLog("doi:")
-      #printLog(res.text)
+      printLog("doi:")
+      printLog(res.text)
       doi_map = json.loads(res.text)
       return doi_map
   except:
@@ -185,13 +188,35 @@ def extractDoi(res_obj):
 	json_obj = json.loads(res_obj)
 	return json_obj['data']['attributes']['doi']
 
+
+def get_doi_citation(doi_ref):
+   printLog("getting doi citation...")
+   try:
+      url = citation_doi_url + "/format"
+      payload = {'doi': doi_ref, 'style': 'apa', 'lang': 'en-US'}
+      res = requests.get(url, params=payload)
+
+      print(f"status: {res.status_code}")
+
+      if(res.status_code == 200):
+         printLog("citation generated successfully")
+      else:
+         printLog("Error in generating citation")
+
+      return res.text
+
+   except:
+      print("Error in requesting doi citation")
+      exit -1
+
 # insert doi in STAC metadata json
-def insertDoi(json_file_name, doi_val):
+def insertDoi(json_file_name, doi_val, doi_cit):
   printLog("adding doi element: " + doi_val + " to file: " + json_file_name)
   try:
     with open(json_file_name, 'r', encoding='utf-8') as file:
       data = json.load(file)
       data["sci:doi"] = doi_val
+      data["sci:citation"] = doi_cit
       
       modified_json = json.dumps(data, indent=2)
 
@@ -231,6 +256,15 @@ if __name__ == '__main__':
     if not mtd_fields_json:
       printLog("unable to parse file")
       exit -1
+
+    #printLog(mtd_fields_json)
+
+    # todo: format date accordingly
+    #if(mtd_fields_json.updated != None):
+    #  printLog("using metadata updated Date")
+    #  publ_year = mtd_fields_json.updated
+    #else:
+    #  publ_year = datetime.now().year
 
     publ_year = datetime.now().year
 
@@ -276,11 +310,15 @@ if __name__ == '__main__':
 
         printLog("doi_elem: " + doi_elem)
 
-      if(doi_elem != "null"):
+        printLog("generating doi citation...")
+
+        doi_citation = get_doi_citation("10.48784/vk93-8p54") # todo: parameter needs to be set to doi_elem
+
+      if(doi_elem != "null" and doi_citation != "null"):
 
         printLog("metadata doi created: " + doi_elem)
 
-        if(insertDoi(file_to_reg, doi_elem)):
+        if(insertDoi(file_to_reg, doi_elem, doi_citation)):
           printLog("doi inserted successfully in metadata")
         else:
           printLog("Error in inserting doi in json metadata")
@@ -318,3 +356,4 @@ if __name__ == '__main__':
   else:
       printLog("no file provided")
       exit -1
+
