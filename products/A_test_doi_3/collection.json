@@ -1,4 +1,3 @@
-
 {
   "type": "Collection",
   "id": "TEST water-level-amazon-itapeua-ridesat",
@@ -166,5 +165,7 @@
         "host"
       ]
     }
-  ]
+  ],
+  "sci:doi": "10.80823/2dtz-mz65",
+  "sci:citation": "Eurac Research & Alpine Convention. (2025). Alpine Convention perimeter (Version 2025) [Dataset]. Alpine Convention. https://doi.org/10.48784/VK93-8P54\n"
 }
