@@ -1,0 +1,89 @@
+{
+  "description": "Product of CDSE Federation - Variability Map Experiment",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "id": "cdse_federation_-_variability_map_experiment",
+  "license": "proprietary",
+  "links": [
+    {
+      "href": "/eodata/Sentinel-2/MSI/L2A/2025/05/01/S2C_MSIL2A_20250501T104041_N0511_R008_T31UFS_20250501T161558.SAFE",
+      "rel": "derived_from",
+      "title": "Derived from /eodata/Sentinel-2/MSI/L2A/2025/05/01/S2C_MSIL2A_20250501T104041_N0511_R008_T31UFS_20250501T161558.SAFE",
+      "type": "application/json"
+    },
+    {
+      "href": "http://ceos.org/ard/files/PFS/SR/v5.0/CARD4L_Product_Family_Specification_Surface_Reflectance-v5.0.pdf",
+      "rel": "card4l-document",
+      "type": "application/pdf"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/worldcereal/collection.json",
+      "type": "application/json",
+      "title": "Project: WorldCereal"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://s3.waw3-1.openeo.v1.dataspace.copernicus.eu/openeo-data-prod-waw4-1/batch_jobs/j-2508200653444a35b75d4028f94dab60/openEO.tif?X-Proxy-Head-As-Get=true&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=628a02412804453f8e96093b464b9dc1%2F20250820%2Fwaw4-1%2Fs3%2Faws4_request&X-Amz-Date=20250820T071711Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Security-Token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlX2FybiI6ImFybjpvcGVuZW93czppYW06Ojpyb2xlL29wZW5lby1kYXRhLXByb2Qtd2F3NC0xLXdvcmtzcGFjZSIsImluaXRpYWxfaXNzdWVyIjoib3BlbmVvLnByb2Qud2F3My0xLm9wZW5lby1pbnQudjEuZGF0YXNwYWNlLmNvcGVybmljdXMuZXUiLCJodHRwczovL2F3cy5hbWF6b24uY29tL3RhZ3MiOnsicHJpbmNpcGFsX3RhZ3MiOnsiam9iX2lkIjpbImotMjUwODIwMDY1MzQ0NGEzNWI3NWQ0MDI4Zjk0ZGFiNjAiXSwidXNlcl9pZCI6WyI2MzkxODUxZi05MDQyLTQxMDgtOGIyYS0zZGQyZThhOWRkMGIiXX0sInRyYW5zaXRpdmVfdGFnX2tleXMiOlsidXNlcl9pZCIsImpvYl9pZCJdfSwiaXNzIjoic3RzLndhdzMtMS5vcGVuZW8udjEuZGF0YXNwYWNlLmNvcGVybmljdXMuZXUiLCJzdWIiOiJvcGVuZW8tZHJpdmVyIiwiZXhwIjoxNzU1Njc3ODMxLCJuYmYiOjE3NTU2NzQyMzEsImlhdCI6MTc1NTY3NDIzMSwianRpIjoiMGY1YzA4YzEtM2NiZC00NTVmLWE3YTMtNjdjMTE0MmUwMDRiIiwiYWNjZXNzX2tleV9pZCI6IjYyOGEwMjQxMjgwNDQ1M2Y4ZTk2MDkzYjQ2NGI5ZGMxIn0.pt8g_iVH6snT18dsMZDYfcI9rpUf6JJ7xJU2K8zEmWDTcxJwpPcqoztZjtDz_LXgZxva8WeOa2il6cwA1SZxj698gkjuy80fwMpmPzca6xxqvjYTB8fjsccpjbvjNy6pGFHsLEpRBmRmQ2RDZlTQLkGZpr42oEtn6mx6n37jEal2LlnrrujUuE1MKUuOnsmRcZbZapyAKcagA_AXgX91VRAvfrIICbF6a7Lu9MWgwePnCfam63eliW2xVyaVb4uutBDUCMMv54qZL855NU7QCzOlWB7hTIpGh_CfOMiZKUQq20qoBIxNOl_vqWpqXoeOtSX80AZcqRBjxErjQpNfmw&X-Amz-Signature=fe449d81e894b4a046825c0181809a0c6b049704cf188a11086e7f135af4a4bf",
+      "title": "Access openEO.tif"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "stac_version": "1.0.0",
+  "title": "CDSE Federation - Variability Map Experiment - Product",
+  "type": "Collection",
+  "osc:missions": [],
+  "osc:project": "worldcereal",
+  "osc:status": "completed",
+  "osc:type": "product",
+  "osc:variables": [],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ]
+}
