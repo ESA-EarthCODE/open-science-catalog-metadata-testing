@@ -17,12 +17,6 @@
       "title": "POLARIS"
     },
     {
-      "rel": "item",
-      "href": "./worldcereal-workflow/record.json",
-      "type": "application/json",
-      "title": "ESA worldcereal global crop extent detector"
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -43,7 +37,7 @@
       "rel": "item",
       "href": "./worldcereal_crop_extent_workflow/record.json",
       "type": "application/json",
-      "title": "worldcereal_crop_extent_experiment - Workflow"
+      "title": "ESA worldcereal global crop extent detector"
     }
   ],
   "updated": "2025-02-19T23:00:00.000000Z",
