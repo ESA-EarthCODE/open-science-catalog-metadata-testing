@@ -38,6 +38,12 @@
       "href": "./worldcereal_crop_extent_workflow/record.json",
       "type": "application/json",
       "title": "ESA worldcereal global crop extent detector"
+    },
+    {
+      "rel": "item",
+      "href": "./cdse_federation_-_variability_map_experiment/record.json",
+      "type": "application/json",
+      "title": "CDSE Federation - Variability Map Experiment - Workflow"
     }
   ],
   "updated": "2025-02-19T23:00:00.000000Z",
