@@ -1,0 +1,28 @@
+{
+  "id": "78119add-0c21-47b3-b92b-7e32f4697f0e",
+  "foo": "sdsdsd",
+  "bar": false,
+  "custom": "",
+  "assets": {
+    "dgfhthrth": {
+      "href": "https://www.google.com",
+      "roles": [
+        "data",
+        "metadata"
+      ]
+    },
+    "wdwdwdwd": {
+      "href": "wddwwdwd",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "Image123": {
+      "href": "google.com",
+      "roles": [
+        "data",
+        "metadata"
+      ]
+    }
+  }
+}
